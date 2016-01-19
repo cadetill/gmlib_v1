@@ -1,0 +1,313 @@
+GMLib - Google Maps Library
+
+Web page:
+    http://www.cadetill.com/gmlib/ (spanish)
+    http://www.cadetill.com/gmlib_en/ (english)
+Bugs report 
+    http://code.google.com/p/gmlibrary/issues/list
+SVN repository 
+    http://code.google.com/p/gmlibrary/source/checkout
+Questions 
+    http://stackoverflow.com with gmlib tag
+For new needs, you can email me
+    gmlib@cadetill.com 
+
+Supported Delphi version: Delphi 6, 7, 2007, 2009, 2010, XE, XE2, XE3, XE4, XE5, XE6, XE7, XE8, Seattle 10
+Tested Windows Versions: XP, 2003, Vista, 7, 8, 10
+Requirements: 
+  - IE 8 and above
+
+
+CHANGE HISTORY
+~~~~~~~~~~~~~~
+
+Septembre 23, 2015
+ - Google Maps Library v1.5.3
+ - Improvement: Compiled under Seattle 10.
+
+February 27, 2015
+ - Google Maps Library v1.5.2
+ - Improvement: Compiled under XE8.
+ - Improvement: TLinePoint -> added Tag property 
+ - Improvement: GMMap can use OpenStreetMap (GC: issue 49)
+ - bug fixed: Fixed problem with the Google Maps update 
+ - bug fixed: TCustomCircle -> bug fixed method SetRadius (thanks Thierry).
+ - bug fixed: TGMGeoCode -> TGeoResult.Geometry.LocationType is always gltNothing (GC: issue 46)
+
+October 20, 2014
+ - Google Maps Library v1.5.0
+ - Improvement: Compiled under XE7.
+ - bug fixed: Fixed problem with the Google Maps update (GC: issue 44).
+ - bug fixed: TCustomCircle -> bug fixed method SetRadius (thanks Fred).
+ - bug fixed: TCustomSizeable -> bug fixed method OnTimer (thanks Fred).
+ - bug fixed: TGMObjects -> bug fixed method IsMapActive (thanks Fred).
+ - improvement: TCustomMarker -> added Direction property (GC: issue 38)
+
+August 30, 2014
+ - Google Maps Library v1.4.0
+ - bug fixed: Lang -> Russian translation is not read, incorrect encoding of the language resources file (GC: issue 35).
+ - improvement: Lang -> best translation for French language (thanks Fred).
+ - bug fixed: GMDirection -> fixed method GetWaypointOrder (GC: issue 39)
+ - bug fixed: TGroundOverlay -> fixed method ChangeProperties (thanks Fred).
+ - improvement: new: TKML -> new class to manage KML files (thanks Fred).
+
+June 17, 2014
+ - Google Maps Library v1.3.0
+ - Improvement: Compiled under XE6.
+ - Improvement: new component TGMHeatmap (GC: issue 33).
+ - Improvement: TGMMap -> added new function GetIEVersion.
+ - Improvement: TCustomGMMapVCL -> added Assign method.
+
+March 26, 2014
+ - Google Maps Library v1.2.4
+ - Improvement: General -> compiled under XE5.
+ - Improvement: JavaScript -> Activated visual refresh view of Google Maps.
+ - Improvement: TGMMap -> added GetMaxZoom method.
+ - Improvement: TGMMap -> added APIKey property (thanks Zsolt).
+ - Improvement: TMarker -> added CrossOnDrag property.
+ - Improvement: TGMMarker -> added OnCrossOnDragChange event.
+ - Improvement: Added Hungarian language (thanks Bógáncs Sándor)
+ - Improvement: Added Italian language (thanks Vincenzo Scarpellino)
+ - Improvement: TMarker -> added optional parameter HTMLContentField into LoadFromDataSet method (GC: issue 24).
+ - Improvement: TMarker -> the LoadFromDataSet method checks the existence of the needed fields.
+ - bug fixed: TAddressComponentsList -> fixed Memory leak on Destroy method (GC: issue 13).
+ - bug fixed: TWebControl.SaveToJPGFile -> save 2 extra pixels (GC: issue 17).
+ - bug fixed: TCircle -> the radius of the circle become very large with changing some property (GC: issue 19).
+ - bug fixed: TGMGroundOverlay -> bug fixed when adding an item by code (thanks Drugoi_mir).
+ - bug fixed: JavaScript -> bug fixed into GeocoderAddressComponent and GeocoderParseResult functions (GC: issue 27).
+
+Juny 12, 2013
+ - Google Maps Library v1.1.0
+ - Improvement: General -> compiled under XE4.
+ - Improvement: TLinkedComponent -> the CenterMapTo method of child classes moved to this class.
+ - Improvement: TCustomMarker -> CenterMapToMarker method is marked as deprecated, instead use CenterMapTo.
+ - Improvement: TCurveLine -> new class to do curved polylines.
+ - Improvement: TBasePolyline -> modified AddLinePoint method to accelerate the creation of polylines.
+ - bug fixed: TBasePolyline -> improved performance on GetPath and AddLinePoint methods (GC: issue 9).
+ - Improvement: TPolyline -> added CurveLine property.
+ - Improvement: TGMPolyline -> added OnCurveLineChange event.
+ - Improvement: TBasePolyline -> added GetCenter method.
+ 
+May 5 2013
+ - Google Maps Library v1.0.1
+ - bug fixed: TCustomGMMap -> StreetView. JavaScript bug fixed.
+ - bug fixed: TCustomGMMarker -> bug fixed on LoadFromDataSet method (first from DataSet).
+ - bug fixed: JavaScript -> bug fixed on GeocoderToXMLData function when geocoding not retrun results.
+ - bug fixed: JavaScript -> bug fixed on DirectionsToXMLData function when directions not retrun results.
+ - bug fixed: TWebChromiumFMX -> WebFormFieldValue method (GC: issue 6).
+ - bug fixed: TWebControl -> WebFormFieldValue method (GC: issue 6).
+ - bug fixed: TWebChromium -> WebFormFieldValue method (GC: issue 6).
+
+April 9, 2013
+ - Google Maps Library v1.0.0 final
+ - change: change of licence to LGPL
+ - Improvement: new component TGMGroundOverlay.
+ - Improvement: (issue GC2) General -> compiled to XE
+ - Improvement: TCustomCircle -> GetBounds method becomes a procedure.
+ - bug fixed: some data types were erroneous (TTimeClass.Value, TDirectionsLeg.DepartureTime, TDirectionsLeg.ArrivalTime).
+ - bug fixed: DirectionsRequest -> bug fixed when using the option TravelMode=tmTRANSIT
+ - Improvement: TCustomDirectionsResult -> DirectionsRender property is removed to be defined in descendents as TDirectionsRender.
+ - Improvement: TCustomDirectionsRenderer -> PolylineOptions property is removed to be defined in descendents as TPolylineOptions.
+ - Improvement: TCustomGMDirection -> DirectionsRender property is removed to be defined in descendents as TDirectionsRenderer.
+ - bug fixed: TDirectionsStep -> bug fixed into Assign method.
+ - bug fixed: TCustomDirectionsResult -> bug fixed into Assign method.
+ - Improvement: added TGMGenFunc class to store general functions.
+ - Improvement: TGeometry -> Geometry library is completed.
+ - Improvement: (issue GC3) TCustomTransform -> new function GMBoolToStr.
+ - Improvement: GMGeoCode unit -> documentation.
+ - Improvement: TGMGeoCode -> now compatible with FireMonkey.
+ - Improvement: TGMGeoCode -> recodification of component to avoid use Web Service.
+ - Improvement: TGeometry (from Geocode) -> renamed to TGeocodeGeometry to avoid confusions.
+ - Improvement: TGoogleBusiness -> removed because cannot be used in geocoding with classes.
+ - Improvement: TGMGeoCode -> now descends from TGMObjects.
+ - bug fixed: TGMGeoCode -> bug fixed in DoMarkers method (thanks Herwig).
+ - bug fixed: TGMGeoCode -> bug fixed in ParseData (thanks Herwig).
+ - Improvement: TInfoWindow -> properties are changed by ChangeProperties method.
+ - Improvement: TGMLinkedComponent -> ShowElements method becomes public.
+ - Improvement: TLatLngEvent -> params X and Y are changed from Real to Double to avoid problems in C++ XE3.
+ - Improvement: TCustomMarker -> ColoredMarker property is removed to be defined in descendents as TColoredMarker.
+ - Improvement: TCustomMarker -> StyledMarker property is removed to be defined in descendents as TStyledMarker.
+ - Improvement: TCustomGMMarker -> a new parameter is added in LoadFromCSV method, IconColumn, to specify a default icon to show.
+ - Improvement: TCustomGMMarker -> added new method LoadFromDataSet.
+ - Improvement: TCustomIconSequence -> Icon property is removed to be defined in descendents as TSymbol.
+ - Improvement: TCustomRectangle -> GetCenter method becomes a procedure.
+ - Improvement: Lang unit -> (issue GC4) added German language (thanks Sascha).
+ - bug fixed: Lang unit -> bug fixed in function GetTranslateText.
+ - Improvement: TDirectionsRenderer -> PolylineOptions property is added.
+ - Improvement: TDirectionsResult -> DirectionsRender property is added.
+ - Improvement: TGMDirection -> DirectionsRender property is added.
+ - Improvement: TMarker -> StyledMarker property is added.
+ - Improvement: TMarker -> ColoredMarker property is added.
+ - Improvement: TPolygons -> now descends from TBasePolylines.
+ - Improvement: TIconSequence -> Icon property is added.
+ - bug fixed: TCustomDirections -> bug fixed into Execute method on the first request.
+ - bug fixed: TCustomGMElevation -> bug fixed into Execute method on the first request.
+ - Improvement: TCustomGMMap -> the methods LatLngBoundsExtend, LatLngBoundsContains and LatLngBoundsGetCenter not refers now to map bounds. For this, use the new methods MapLatLngBoundsExtend and MapLatLngBoundsContains.
+ - Improvement: TCustomGMMap -> new method ZoomToPoints to do that the map have the necessary zoom to show all points passed by parameter.
+ - Improvement: TBasePolyline -> ZoomToPoints, sets the optimal zoom to display the polyline.
+ - Improvement: TCustomRectangle -> ZoomToPoints, sets the optimal zoom to display the rectangle.
+ - Improvement: TCustomGMMarker -> ZoomToPoints, sets the optimal zoom to display all markers.
+ - Improvement: TLinePoints -> PointsToStr is now deprecated.
+ - Improvement: TCustomGMMarker -> ZoomMapToAllMarkers is now deprecated.
+ - bug fixed: Problem with D2007 solved.
+ - Improvement: TCustomGMMap -> added StreetView property (TStreetView) to manipulate of StreetView panorama features (now only the visibility).
+ - Improvement: TLinkedComponent -> added OpenCloseInfoWin method to show/hide associated InfoWindows.
+ - Improvement: Lang unit -> added Russian language (thanks Teltikov Aleksandr).
+
+January 14, 2013
+ - Google Maps Library v0.1.9
+ - Improvement: Compatible with FMX framework.
+ - Improvement: About all Geometry Library coded.
+ - bug fixed: Some bugs fixes.
+ - Attempt to do compatible with DCEF components.
+
+October 05, 2012
+ - Google Maps Library v0.1.8
+ - Improvement: Compiled under XE3
+ - Improvement: new component added, the TGMElevation.
+ - bug fixed: General -> fixed all memory leaks found
+ - bug fixed: TGMDirection -> the OnDirectionsChanged event was not triggered
+ - Improvement: TBasePolyline -> class TLinePoints and TLinePoint is disassociated from TPolyline and they are transferred to GMClasses
+ - Improvement: TBasePolyline -> implements ILinePoint interface
+	
+September 11, 2012
+ - Google Maps Library v0.1.7
+ - bug fixed: some memory leaks fixed (there is still some) (thanks Donovan)
+ - Improvement: TGMCircle -> modified all Set and ShowElements methods to use the new method ChangeProperties inherited from TLinkedComponent
+ - Improvement: GMFunctions -> added new functions of transformation types
+ - Improvement: TGMGeoCode-> added boolean property PaintMarkerFound. To true, all markers are automatically generated (if a TGMMarker is linked) (by Luis Joaquin Sencion)
+ - Improvement: TGMGeoCode-> generated URL is encoded in UTF8 to avoid problems with special characters (ñ, accents, ....)
+ - Improvement: TGMMap.TNonVisualProp -> added MapMarker property. True if Map Maker tiles should be used instead of regular tiles.
+ - Improvement: TLatLngEvent -> the events of this type now have a new parametre, X and Y, of Real type, with information of point (X,Y)
+ - Improvement: TLinkedComponent -> added ShowInfoWinMouseOver boolean property. If true, show the InfoWindows when mouse is over the object. Now only valid for TMarker (by Luis Joaquin Sencion).
+ - Improvement: TLinkedComponent -> added ChangeProperties protected method to centralize in one place the changes of properties of the objects
+ - Improvement: TGMMarker -> modified all Set and ShowElements methods to use the new method ChangeProperties inherited from TLinkedComponent
+ - Improvement: TMarkerLatLng class are deleted. Now it use the TLatLng class directly
+ - Improvement: TMarker -> the Position property now is a TLatLng.
+ - Improvement: TMarker -> added MarkerType property to specify the marker type to show (mtStandard, mtColored, mtStyledMarker).
+ - Improvement: TMarker -> added ColoredMarker property to specify properties of marker when MarkerType = mtColored.
+ - Improvement: TMarker -> added StyledMarker property to specify properties of marker when MarkerType = mtStyledMarker.
+ - Improvement: TGMMarker-> added LoadFromCSV public method for a massive load of markers that are in a CSV file (about 50 markers/sec).
+ - Improvement: TGMMarker-> 4 news events: OnLoadFile and AfterLoadFile for processing the CSV file, and OnColoredMarkerChange and OnStyledMarkerChange for changing the properties
+ - Improvement: TGMPolygon -> modified all Set and ShowElements methods to use the new method ChangeProperties inherited from TLinkedComponent
+ - Improvement: TGMPolygon -> created new base class (TBasePolyline) between TLinkedComponent and TPolyline. TPolygon inherited now from TBasePolyline.
+ - Improvement: TGMPolygon -> created new base class (TGMBasePolyline) between TGMLinkedComponent and TGMPolyline. TGMPolygon inherited now from TGMBasePolyline.
+ - Improvement: TGMPolyline -> modified all Set and ShowElements methods to use the new method ChangeProperties inherited from TLinkedComponent
+ - Improvement: TGMPolyline -> created new class (TBasePolyline) between TLinkedComponent and TPolyline
+ - Improvement: TGMPolyline -> created new class (TGMBasePolyline) between TGMLinkedComponent and TGMPolyline.
+ - Improvement: TPolyline -> added Icon property to define the line of polyline.
+ - Improvement: TGMRectangle -> modified all Set and ShowElements methods to use the new method ChangeProperties inherited from TLinkedComponent
+
+
+August 07, 2012
+ - Google Maps Library v0.1.6
+ - Improvement: new component added, the TGMDirection.
+ - Improvement: GetConvertedString function is moved to the GMBase base class
+ - Improvement: TGMObjects -> new class that inherits from TGMBase and the classes that inherit as TGMLinkedComponent or TGMDirection
+ - Improvement: TGMMaps -> added Layers property to access Google Maps layers like:
+        a) Panoramio (TPanoramio class)
+        b) Traffic (TTraffic class)
+        c) Transit (TTransit class)
+        d) Bicyclig (TBicycling class)
+        e) Weather (TWeather class)
+ - Improvement: TGMMaps -> added OnWeatherClick and FOnPanoramioClick events
+ - Improvement: TGMMaps -> changed xxToStr and StrToxxx methods to reduce code
+ - Improvement: TGMMaps -> the Printxxxx and SaveToJPGFile methods now uses methods of WebControls unit
+ - Bug fixed: TGMPolyline -> bug fixed when we try to show a polyline without TLinePoints
+ - Improvement: Lang -> added french language (thanks Stéphane)
+ - Improvement: TWebControl -> added SaveToJPGFile method
+ - Improvement: TSizeable -> added Assign method
+ - bug fixed: TSizeable -> when no circular, radius was growing more than the maximum
+ - Improvement: TAddressComponent -> added Assign method
+ - Improvement: TAddressComponentsList -> added Assign method
+ - Improvement: TGeometry -> added Assign method
+ - Improvement: TGeoResult -> added Assign method
+ - Improvement: TGoogleBusiness -> added Assign method
+ - Improvement: TGMGeoCode -> overrided Notification method to control Marker property
+ - Improvement: TGMGeoCode -> xxToStr and StrToxxx moved to the TTransform class into the GMFunctions unit
+ - Improvement: TGMGeoCode -> added Assign method
+ - Improvement: new TTransform class with xxxToStr and StrToxxx methods to do Set property to string and string to Set property transformations (GMFunctions unit)
+ - Improvement: General -> the project is divided into 2 packages to compile the project into 64 bits under XE2
+ - Improvement: General -> compiled for Delphi 2009 and C++ XE2 (read Install.txt)
+
+
+July 12, 2012
+ - Google Maps Library v0.1.5
+ - Improvement: new component added, the TGMGeoCode.
+ - Improvement: TGMCircle -> Radius property becomes an integer.
+ - Improvement: TGMCircle -> added AutoResize property.
+ - Improvement: TLatLng -> it is controlled a possible exception in function StringToReal.
+ - Improvement: TLatLngBounds -> GetCenter function is deleted.
+ - Improvement: TPolyline -> added CountLinePoints property.
+ - Improvement: TLinePoint -> added ToStr method.
+ - Improvement: TLinePoint -> added StringToReal method.
+ - Improvement: TRectangle -> added GetCenter method.
+ - Improvement: TGMMap -> added events OnActiveChange, OnIntervalEventsChange and OnPrecisionChange.
+ - Improvement: TGMMap -> control Set methods of Zoom and MapType properties to update map automatically.
+ - Improvement: TGMMap -> Zoom, MaxZoom and MinZoom are limited at range 0 to 15.
+ - Improvement: TLinkedComponent -> added Text property (visible to all his descendants except TMarker because it has the Title property).
+ - Improvement: TGMLinkedComponent -> added Count property.
+ - Improvement: added a new demo for all components.
+ - Bug fixed: TGMBaseInfoWindow -> GetConvertedString function now control the single quote.
+ - Bug fixed: TLatLng -> fix error in LatLngToStr function (thanks Erasmo).
+ - Bug fixed: TGMMarker -> the single quote is controled into Title property.
+ - Bug fixed: TGMMap -> bug fixed on RemoveLinkedComponent when trying delete an object without being the list created.
+ - Bug fixed: JavaScript => when it had figures of different types together, there was a JS error when you move the mouse over them (thanks Erasmo).
+
+
+June 26, 2012
+ - Google Maps Library v0.1.4
+ - Improvement: new component added, the TCircle.
+ - Improvement: TGMMap => added methos PrintNoDialog, PrintWithDialog, PrintPreview and PrintPageSetup to print map.
+ - Improvement: TGMMap => added SaveToJPGFile method to save a JPG file.
+ - Improvement: JavaScript => some changes to avoid duplicate code.
+ - Bug fixed: TLatLng => fix error in LatLngToStr function (thanks Shaun).
+
+
+June 21, 2012
+ - Google Maps Library v0.1.3
+ - Improvement: new component added, the TRectangle to create rectangles.
+ - Improvement: General => Changed destination folder of DCU files. Now, each version have their own folder. Check "library path".
+ - Improvement: TLatLng => added OnChange method.
+ - Improvement: TLatLng => added StringToReal method. This methoid takes into account the regional configuration.
+ - Improvement: TLatLngBounds => added GetCenter method.
+ - Improvement: TLatLngBounds => properties NE and SW now are published.
+ - Improvement: TLinkedComponent => added Tag (integer) property.
+ - Improvement: TLinkedComponent => added FObject (TObject) property.
+ - Improvement: TLinkedComponent => added protected methods (SetProperty) to generalize change into properties to avoid duplicate code.
+ - Improvement: TMarker => added Icon property to specify the icon to show into a map. Can be a file into your PC or an image on the web.
+ - Improvement: TGMMarker => added OnIconChange event.
+ - Improvement: General => all Set methods are changed to avoid duplicate code.
+
+
+May 05,  2012
+ - Google Maps Library v0.1.2
+ - Improvement: new component added, the TGMPolygon to create polygons.
+ - Improvement: TGMPolyline => when change the lat/lng of a TLinePoint, the map is update.
+ - Bug fixed: TGMMarker => some properties giving a JavaScript error when modifying.
+ - Bug fixed: TGMPolyline => implemented SetPath into JavaScript.
+
+
+April 16, 2012
+ - Google Maps Library v0.1.1
+ - Improvement: new component added, the TGMPolyline to create polylines.
+ - Improvement: TInfoWindow => added AutoOpen property.
+ - Improvement: TInfoWindow => added event OnPositionChange.
+ - Improvement: JavaScript => A lot of changes into JavaScript functions to make it more generic
+ - Improvement: TGMLinkedComponent => added Clear method.
+ - Improvement: TGMLinkedComponent => added Assign method.
+ - Improvement: TLinkedComponents => added Clear method.
+ - Improvement: All => change Google Maps API url to the new domain.
+ - Improvement: TGMMarker => when a lat/lng is changed into a marker, this is automatically changed into the map
+ - Improvement: TGMSize => added Assign method.
+ - Bug fixed: some bugs fixed.
+
+
+March 20, 2012
+ - Frist version
+
+
+
+For full information, see 
+  http://www.cadetill.com/gmlib/ (spanish)
+  http://www.cadetill.com/gmlib_en/ (english)

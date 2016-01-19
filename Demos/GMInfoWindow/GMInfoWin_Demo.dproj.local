@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2011/12/29 23:47:31.351.dproj,D:\Docs\Feina\GoogleMaps\Components\Demos\GMMarket\GMMarket_Demo.dproj=D:\Docs\RAD Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2011/12/29 23:47:48.212.dproj,D:\Docs\Feina\GoogleMaps\Components\Demos\GMMarket\GMMarker_Demo.dproj=D:\Docs\Feina\GoogleMaps\Components\Demos\GMMarket\GMMarket_Demo.dproj</Transaction>
+    <Transaction>2011/12/29 23:48:13.530.dfm,D:\Docs\Feina\GoogleMaps\Components\Demos\GMMarket\UGMMarkerFrm.dfm=D:\Docs\Feina\GoogleMaps\Components\Demos\GMMarket\UGMMarketFrm.dfm</Transaction>
+    <Transaction>2011/12/29 23:48:13.530.pas,D:\Docs\Feina\GoogleMaps\Components\Demos\GMMarket\UGMMarkerFrm.pas=D:\Docs\Feina\GoogleMaps\Components\Demos\GMMarket\UGMMarketFrm.pas</Transaction>
+    <Transaction>2011/12/29 23:48:51.195.dproj,D:\Docs\Feina\GoogleMaps\Components\Demos\GMMarker\GMMarker_Demo.dproj=D:\Docs\Feina\GoogleMaps\Components\Demos\GMMarket\GMMarker_Demo.dproj</Transaction>
+    <Transaction>2011/12/29 23:48:59.149.pas,D:\Docs\Feina\GoogleMaps\Components\Demos\GMMarker\UGMMarkerFrm.pas=D:\Docs\Feina\GoogleMaps\Components\Demos\GMMarket\UGMMarkerFrm.pas</Transaction>
+    <Transaction>2011/12/29 23:48:59.149.dfm,D:\Docs\Feina\GoogleMaps\Components\Demos\GMMarker\UGMMarkerFrm.dfm=D:\Docs\Feina\GoogleMaps\Components\Demos\GMMarket\UGMMarkerFrm.dfm</Transaction>
+    <Transaction>2011/12/30 10:25:41.687.dfm,D:\Docs\Fonts\GoogleMaps\Components\Demos\GMMarker\UGMMarkerFrm.dfm=D:\Docs\Fonts\GoogleMaps\Components\Demos\GMMarker\UGMMapFrm.dfm</Transaction>
+    <Transaction>2011/12/30 10:25:41.687.pas,D:\Docs\Fonts\GoogleMaps\Components\Demos\GMMarker\UGMMarkerFrm.pas=D:\Docs\Fonts\GoogleMaps\Components\Demos\GMMarker\UGMMapFrm.pas</Transaction>
+    <Transaction>2012/01/04 21:34:07.264.dfm,D:\Docs\Feina\GoogleMaps\Components\Demos\GMMarker\UGMMarkerFrm.dfm=D:\Docs\Feina\GoogleMaps\Components\Demos\GMMarker\Unit1.dfm</Transaction>
+    <Transaction>2012/01/04 21:34:07.264.pas,D:\Docs\Feina\GoogleMaps\Components\Demos\GMMarker\UGMMarkerFrm.pas=D:\Docs\Feina\GoogleMaps\Components\Demos\GMMarker\Unit1.pas</Transaction>
+    <Transaction>2012/01/05 10:43:41.626.pas,D:\Docs\Fonts\GoogleMaps\Components\Demos\GMMarker\UGMMarkerFrm.pas=D:\Docs\Fonts\GoogleMaps\Components\Demos\GMMarker\UGMMapFrm.pas</Transaction>
+    <Transaction>2012/01/05 10:43:41.626.dfm,D:\Docs\Fonts\GoogleMaps\Components\Demos\GMMarker\UGMMarkerFrm.dfm=D:\Docs\Fonts\GoogleMaps\Components\Demos\GMMarker\UGMMapFrm.dfm</Transaction>
+    <Transaction>2012/03/18 10:14:02.816.dfm,D:\Docs\Feina\GoogleMaps\Components\Demos\GMInfoWindow\UGMInfoWinFrm.dfm=D:\Docs\Feina\GoogleMaps\Components\Demos\GMInfoWindow\UGMMarkerFrm.dfm</Transaction>
+    <Transaction>2012/03/18 10:14:02.816.pas,D:\Docs\Feina\GoogleMaps\Components\Demos\GMInfoWindow\UGMInfoWinFrm.pas=D:\Docs\Feina\GoogleMaps\Components\Demos\GMInfoWindow\UGMMarkerFrm.pas</Transaction>
+    <Transaction>2012/03/18 10:14:17.551.dproj,D:\Docs\Feina\GoogleMaps\Components\Demos\GMInfoWindow\GMInfoWin_Demo.dproj=D:\Docs\Feina\GoogleMaps\Components\Demos\GMInfoWindow\GMMarker_Demo.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

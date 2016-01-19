@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2013/02/06 16:18:56.000.325,D:\Docs\Dropbox\Programacio\GoogleMaps\Components\_todelete\InfoWin\Unit1.dfm=D:\Docs\RAD Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2013/02/06 16:18:57.000.231,D:\Docs\Dropbox\Programacio\GoogleMaps\Components\_todelete\InfoWin\Project1.dproj=D:\Docs\RAD Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2013/02/07 09:57:50.000.002,D:\Docs\Dropbox\Programacio\GoogleMaps\Components\Demos\SimpleGMInfoWin\SimpleGMInfoWin.dproj=D:\Docs\Dropbox\Programacio\GoogleMaps\Components\Demos\SimpleGMInfoWin\Project1.dproj</Transaction>
+    <Transaction>2013/02/07 10:00:14.000.217,D:\Docs\Dropbox\Programacio\GoogleMaps\Components\Demos\SimpleGMInfoWin\UMainSIWFrm.dfm=D:\Docs\Dropbox\Programacio\GoogleMaps\Components\Demos\SimpleGMInfoWin\Unit1.dfm</Transaction>
+    <Transaction>2013/02/07 10:00:14.000.217,D:\Docs\Dropbox\Programacio\GoogleMaps\Components\Demos\SimpleGMInfoWin\UMainSIWFrm.pas=D:\Docs\Dropbox\Programacio\GoogleMaps\Components\Demos\SimpleGMInfoWin\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
