@@ -1,0 +1,36 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{6FDC7474-6E43-4B7C-9F6B-718C72E05D3C}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="dpk\GMLib_DXE.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="GMLib_DXE">
+			<MSBuild Projects="dpk\GMLib_DXE.dproj"/>
+		</Target>
+		<Target Name="GMLib_DXE:Clean">
+			<MSBuild Projects="dpk\GMLib_DXE.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="GMLib_DXE:Make">
+			<MSBuild Projects="dpk\GMLib_DXE.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="GMLib_DXE"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="GMLib_DXE:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="GMLib_DXE:Make"/>
+		</Target>
+		<Import Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')" Project="$(BDS)\Bin\CodeGear.Group.Targets"/>
+	</Project>

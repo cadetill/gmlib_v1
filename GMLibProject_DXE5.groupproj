@@ -1,0 +1,84 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{F6A5576D-5130-4E00-9CE9-D75BA1E89716}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="dpk\GMLib_DXE5.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="dpk\GMLib_DXE5_VCL.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="dpk\GMLib_DXE5_FMX.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="dpk\GMLibEdit_DXE5.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Demos\MegaDemo\MegaDemo.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="GMLib_DXE5">
+        <MSBuild Projects="dpk\GMLib_DXE5.dproj"/>
+    </Target>
+    <Target Name="GMLib_DXE5:Clean">
+        <MSBuild Projects="dpk\GMLib_DXE5.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GMLib_DXE5:Make">
+        <MSBuild Projects="dpk\GMLib_DXE5.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="GMLib_DXE5_VCL">
+        <MSBuild Projects="dpk\GMLib_DXE5_VCL.dproj"/>
+    </Target>
+    <Target Name="GMLib_DXE5_VCL:Clean">
+        <MSBuild Projects="dpk\GMLib_DXE5_VCL.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GMLib_DXE5_VCL:Make">
+        <MSBuild Projects="dpk\GMLib_DXE5_VCL.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="GMLib_DXE5_FMX">
+        <MSBuild Projects="dpk\GMLib_DXE5_FMX.dproj"/>
+    </Target>
+    <Target Name="GMLib_DXE5_FMX:Clean">
+        <MSBuild Projects="dpk\GMLib_DXE5_FMX.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GMLib_DXE5_FMX:Make">
+        <MSBuild Projects="dpk\GMLib_DXE5_FMX.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="GMLibEdit_DXE5">
+        <MSBuild Projects="dpk\GMLibEdit_DXE5.dproj"/>
+    </Target>
+    <Target Name="GMLibEdit_DXE5:Clean">
+        <MSBuild Projects="dpk\GMLibEdit_DXE5.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GMLibEdit_DXE5:Make">
+        <MSBuild Projects="dpk\GMLibEdit_DXE5.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MegaDemo">
+        <MSBuild Projects="Demos\MegaDemo\MegaDemo.dproj"/>
+    </Target>
+    <Target Name="MegaDemo:Clean">
+        <MSBuild Projects="Demos\MegaDemo\MegaDemo.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MegaDemo:Make">
+        <MSBuild Projects="Demos\MegaDemo\MegaDemo.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="GMLib_DXE5;GMLib_DXE5_VCL;GMLib_DXE5_FMX;GMLibEdit_DXE5;MegaDemo"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="GMLib_DXE5:Clean;GMLib_DXE5_VCL:Clean;GMLib_DXE5_FMX:Clean;GMLibEdit_DXE5:Clean;MegaDemo:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="GMLib_DXE5:Make;GMLib_DXE5_VCL:Make;GMLib_DXE5_FMX:Make;GMLibEdit_DXE5:Make;MegaDemo:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

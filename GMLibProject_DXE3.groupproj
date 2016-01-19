@@ -1,0 +1,120 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{EE4B7E20-6054-46E9-9078-0F12E5D4F673}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="dpk\GMLib_DXE3.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="dpk\GMLib_DXE3_VCL.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="dpk\GMLib_DXE3_FMX.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="dpk\GMLibEdit_DXE3.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Demos\MegaDemo\MegaDemo.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Demos\GMInfoWindow\GMInfoWin_Demo.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Demos\SimpleGMInfoWin\SimpleGMInfoWin.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Demos\TGeometryClass\TGeometryClassDemo.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="GMLib_DXE3">
+        <MSBuild Projects="dpk\GMLib_DXE3.dproj"/>
+    </Target>
+    <Target Name="GMLib_DXE3:Clean">
+        <MSBuild Projects="dpk\GMLib_DXE3.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GMLib_DXE3:Make">
+        <MSBuild Projects="dpk\GMLib_DXE3.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="GMLib_DXE3_VCL">
+        <MSBuild Projects="dpk\GMLib_DXE3_VCL.dproj"/>
+    </Target>
+    <Target Name="GMLib_DXE3_VCL:Clean">
+        <MSBuild Projects="dpk\GMLib_DXE3_VCL.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GMLib_DXE3_VCL:Make">
+        <MSBuild Projects="dpk\GMLib_DXE3_VCL.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="GMLib_DXE3_FMX">
+        <MSBuild Projects="dpk\GMLib_DXE3_FMX.dproj"/>
+    </Target>
+    <Target Name="GMLib_DXE3_FMX:Clean">
+        <MSBuild Projects="dpk\GMLib_DXE3_FMX.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GMLib_DXE3_FMX:Make">
+        <MSBuild Projects="dpk\GMLib_DXE3_FMX.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="GMLibEdit_DXE3">
+        <MSBuild Projects="dpk\GMLibEdit_DXE3.dproj"/>
+    </Target>
+    <Target Name="GMLibEdit_DXE3:Clean">
+        <MSBuild Projects="dpk\GMLibEdit_DXE3.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GMLibEdit_DXE3:Make">
+        <MSBuild Projects="dpk\GMLibEdit_DXE3.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MegaDemo">
+        <MSBuild Projects="Demos\MegaDemo\MegaDemo.dproj"/>
+    </Target>
+    <Target Name="MegaDemo:Clean">
+        <MSBuild Projects="Demos\MegaDemo\MegaDemo.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MegaDemo:Make">
+        <MSBuild Projects="Demos\MegaDemo\MegaDemo.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="GMInfoWin_Demo">
+        <MSBuild Projects="Demos\GMInfoWindow\GMInfoWin_Demo.dproj"/>
+    </Target>
+    <Target Name="GMInfoWin_Demo:Clean">
+        <MSBuild Projects="Demos\GMInfoWindow\GMInfoWin_Demo.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GMInfoWin_Demo:Make">
+        <MSBuild Projects="Demos\GMInfoWindow\GMInfoWin_Demo.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SimpleGMInfoWin">
+        <MSBuild Projects="Demos\SimpleGMInfoWin\SimpleGMInfoWin.dproj"/>
+    </Target>
+    <Target Name="SimpleGMInfoWin:Clean">
+        <MSBuild Projects="Demos\SimpleGMInfoWin\SimpleGMInfoWin.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SimpleGMInfoWin:Make">
+        <MSBuild Projects="Demos\SimpleGMInfoWin\SimpleGMInfoWin.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TGeometryClassDemo">
+        <MSBuild Projects="Demos\TGeometryClass\TGeometryClassDemo.dproj"/>
+    </Target>
+    <Target Name="TGeometryClassDemo:Clean">
+        <MSBuild Projects="Demos\TGeometryClass\TGeometryClassDemo.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TGeometryClassDemo:Make">
+        <MSBuild Projects="Demos\TGeometryClass\TGeometryClassDemo.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="GMLib_DXE3;GMLib_DXE3_VCL;GMLib_DXE3_FMX;GMLibEdit_DXE3;MegaDemo;GMInfoWin_Demo;SimpleGMInfoWin;TGeometryClassDemo"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="GMLib_DXE3:Clean;GMLib_DXE3_VCL:Clean;GMLib_DXE3_FMX:Clean;GMLibEdit_DXE3:Clean;MegaDemo:Clean;GMInfoWin_Demo:Clean;SimpleGMInfoWin:Clean;TGeometryClassDemo:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="GMLib_DXE3:Make;GMLib_DXE3_VCL:Make;GMLib_DXE3_FMX:Make;GMLibEdit_DXE3:Make;MegaDemo:Make;GMInfoWin_Demo:Make;SimpleGMInfoWin:Make;TGeometryClassDemo:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

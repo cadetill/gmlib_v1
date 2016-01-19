@@ -1,0 +1,72 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{A5D60C85-2386-4CF7-A144-BC74A4E409B2}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="dpk\GMLib_DXE8.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="dpk\GMLib_DXE8_VCL.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="dpk\GMLib_DXE8_FMX.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="dpk\GMLibEdit_DXE8.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="GMLib_DXE8">
+        <MSBuild Projects="dpk\GMLib_DXE8.dproj"/>
+    </Target>
+    <Target Name="GMLib_DXE8:Clean">
+        <MSBuild Projects="dpk\GMLib_DXE8.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GMLib_DXE8:Make">
+        <MSBuild Projects="dpk\GMLib_DXE8.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="GMLib_DXE8_VCL">
+        <MSBuild Projects="dpk\GMLib_DXE8_VCL.dproj"/>
+    </Target>
+    <Target Name="GMLib_DXE8_VCL:Clean">
+        <MSBuild Projects="dpk\GMLib_DXE8_VCL.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GMLib_DXE8_VCL:Make">
+        <MSBuild Projects="dpk\GMLib_DXE8_VCL.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="GMLib_DXE8_FMX">
+        <MSBuild Projects="dpk\GMLib_DXE8_FMX.dproj"/>
+    </Target>
+    <Target Name="GMLib_DXE8_FMX:Clean">
+        <MSBuild Projects="dpk\GMLib_DXE8_FMX.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GMLib_DXE8_FMX:Make">
+        <MSBuild Projects="dpk\GMLib_DXE8_FMX.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="GMLibEdit_DXE8">
+        <MSBuild Projects="dpk\GMLibEdit_DXE8.dproj"/>
+    </Target>
+    <Target Name="GMLibEdit_DXE8:Clean">
+        <MSBuild Projects="dpk\GMLibEdit_DXE8.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GMLibEdit_DXE8:Make">
+        <MSBuild Projects="dpk\GMLibEdit_DXE8.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="GMLib_DXE8;GMLib_DXE8_VCL;GMLib_DXE8_FMX;GMLibEdit_DXE8"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="GMLib_DXE8:Clean;GMLib_DXE8_VCL:Clean;GMLib_DXE8_FMX:Clean;GMLibEdit_DXE8:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="GMLib_DXE8:Make;GMLib_DXE8_VCL:Make;GMLib_DXE8_FMX:Make;GMLibEdit_DXE8:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

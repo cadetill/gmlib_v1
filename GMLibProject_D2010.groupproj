@@ -1,0 +1,48 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{8FA77DE9-4DF8-42E1-9040-453BBF204DA8}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="dpk\GMLib_D2010.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Demos\MegaDemo\MegaDemo.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="GMLib_D2010">
+			<MSBuild Projects="dpk\GMLib_D2010.dproj"/>
+		</Target>
+		<Target Name="GMLib_D2010:Clean">
+			<MSBuild Targets="Clean" Projects="dpk\GMLib_D2010.dproj"/>
+		</Target>
+		<Target Name="GMLib_D2010:Make">
+			<MSBuild Targets="Make" Projects="dpk\GMLib_D2010.dproj"/>
+		</Target>
+		<Target Name="MegaDemo">
+			<MSBuild Projects="Demos\MegaDemo\MegaDemo.dproj"/>
+		</Target>
+		<Target Name="MegaDemo:Clean">
+			<MSBuild Targets="Clean" Projects="Demos\MegaDemo\MegaDemo.dproj"/>
+		</Target>
+		<Target Name="MegaDemo:Make">
+			<MSBuild Targets="Make" Projects="Demos\MegaDemo\MegaDemo.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="GMLib_D2010;MegaDemo"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="GMLib_D2010:Clean;MegaDemo:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="GMLib_D2010:Make;MegaDemo:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

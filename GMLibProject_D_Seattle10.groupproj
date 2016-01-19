@@ -1,0 +1,84 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{EC2F0AB1-0385-48C6-89FF-14C690C67D62}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="dpk\GMLib_D_Seattle10.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="dpk\GMLib_D_Seattle10_VCL.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="dpk\GMLib_D_Seattle10_FMX.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="dpk\GMLibEdit_D_Seattle10.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Demos\MegaDemo\MegaDemo.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="GMLib_D_Seattle10">
+        <MSBuild Projects="dpk\GMLib_D_Seattle10.dproj"/>
+    </Target>
+    <Target Name="GMLib_D_Seattle10:Clean">
+        <MSBuild Projects="dpk\GMLib_D_Seattle10.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GMLib_D_Seattle10:Make">
+        <MSBuild Projects="dpk\GMLib_D_Seattle10.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="GMLib_D_Seattle10_VCL">
+        <MSBuild Projects="dpk\GMLib_D_Seattle10_VCL.dproj"/>
+    </Target>
+    <Target Name="GMLib_D_Seattle10_VCL:Clean">
+        <MSBuild Projects="dpk\GMLib_D_Seattle10_VCL.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GMLib_D_Seattle10_VCL:Make">
+        <MSBuild Projects="dpk\GMLib_D_Seattle10_VCL.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="GMLib_D_Seattle10_FMX">
+        <MSBuild Projects="dpk\GMLib_D_Seattle10_FMX.dproj"/>
+    </Target>
+    <Target Name="GMLib_D_Seattle10_FMX:Clean">
+        <MSBuild Projects="dpk\GMLib_D_Seattle10_FMX.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GMLib_D_Seattle10_FMX:Make">
+        <MSBuild Projects="dpk\GMLib_D_Seattle10_FMX.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="GMLibEdit_D_Seattle10">
+        <MSBuild Projects="dpk\GMLibEdit_D_Seattle10.dproj"/>
+    </Target>
+    <Target Name="GMLibEdit_D_Seattle10:Clean">
+        <MSBuild Projects="dpk\GMLibEdit_D_Seattle10.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GMLibEdit_D_Seattle10:Make">
+        <MSBuild Projects="dpk\GMLibEdit_D_Seattle10.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MegaDemo">
+        <MSBuild Projects="Demos\MegaDemo\MegaDemo.dproj"/>
+    </Target>
+    <Target Name="MegaDemo:Clean">
+        <MSBuild Projects="Demos\MegaDemo\MegaDemo.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MegaDemo:Make">
+        <MSBuild Projects="Demos\MegaDemo\MegaDemo.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="GMLib_D_Seattle10;GMLib_D_Seattle10_VCL;GMLib_D_Seattle10_FMX;GMLibEdit_D_Seattle10;MegaDemo"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="GMLib_D_Seattle10:Clean;GMLib_D_Seattle10_VCL:Clean;GMLib_D_Seattle10_FMX:Clean;GMLibEdit_D_Seattle10:Clean;MegaDemo:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="GMLib_D_Seattle10:Make;GMLib_D_Seattle10_VCL:Make;GMLib_D_Seattle10_FMX:Make;GMLibEdit_D_Seattle10:Make;MegaDemo:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
