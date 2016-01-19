@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/06/17 12:38:01.000.633,=rtl.dcp</Transaction>
+    <Transaction>2014/06/17 12:39:16.000.455,d:\Docs\Embarcadero\Studio\Projects\Package1.dproj=D:\Docs\DropBox\Programacio\GoogleMaps\Components\dpk\GMLib_DXE6.dproj</Transaction>
+    <Transaction>2014/06/17 12:40:48.000.388,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\GMConstants.pas</Transaction>
+    <Transaction>2014/06/17 12:40:48.000.372,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\GMClasses.pas</Transaction>
+    <Transaction>2014/06/17 12:40:48.000.362,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\GMCircle.pas</Transaction>
+    <Transaction>2014/06/17 12:44:03.000.707,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\GMDirection.pas</Transaction>
+    <Transaction>2014/06/17 12:44:03.000.717,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\GMElevation.pas</Transaction>
+    <Transaction>2014/06/17 12:44:03.000.729,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\GMFunctions.pas</Transaction>
+    <Transaction>2014/06/17 12:44:06.000.251,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\GMGroundOverlay.pas</Transaction>
+    <Transaction>2014/06/17 12:44:06.000.272,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\GMInfoWindow.pas</Transaction>
+    <Transaction>2014/06/17 12:44:06.000.241,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\GMGeoCode.pas</Transaction>
+    <Transaction>2014/06/17 12:44:06.000.286,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\GMLinkedComponents.pas</Transaction>
+    <Transaction>2014/06/17 12:44:06.000.314,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\GMMap.pas</Transaction>
+    <Transaction>2014/06/17 12:44:06.000.259,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\GMHeatmap.pas</Transaction>
+    <Transaction>2014/06/17 12:44:35.000.790,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\RegisterComp.pas</Transaction>
+    <Transaction>2014/06/17 12:44:35.000.782,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\Lang.pas</Transaction>
+    <Transaction>2014/06/17 12:44:35.000.773,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\GMRectangle.pas</Transaction>
+    <Transaction>2014/06/17 12:44:35.000.807,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\WebControl.pas</Transaction>
+    <Transaction>2014/06/17 12:44:35.000.750,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\GMMarker.pas</Transaction>
+    <Transaction>2014/06/17 12:44:35.000.763,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\GMPolyline.pas</Transaction>
+    <Transaction>2014/06/17 15:11:17.000.389,=dbrtl.dcp</Transaction>
+    <Transaction>2014/06/17 15:11:17.000.379,=xmlrtl.dcp</Transaction>
+  </Transactions>
+</BorlandProject>

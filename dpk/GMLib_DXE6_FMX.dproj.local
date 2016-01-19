@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/06/17 15:34:06.000.220,=rtl.dcp</Transaction>
+    <Transaction>2014/06/17 15:34:14.000.992,D:\Docs\DropBox\Programacio\GoogleMaps\Components\dpk\GMLib_DXE6_FMX.dproj=d:\Docs\Embarcadero\Studio\Projects\Package1.dproj</Transaction>
+    <Transaction>2014/06/17 15:35:01.000.236,=GMLib_DXE6.dcp</Transaction>
+    <Transaction>2014/06/17 15:35:23.000.860,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\FMX\GMDirectionFMX.pas</Transaction>
+    <Transaction>2014/06/17 15:35:23.000.891,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\FMX\GMFunctionsFMX.pas</Transaction>
+    <Transaction>2014/06/17 15:35:23.000.901,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\FMX\GMMapFMX.pas</Transaction>
+    <Transaction>2014/06/17 15:35:23.000.999,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\FMX\GMPolygonFMX.pas</Transaction>
+    <Transaction>2014/06/17 15:35:23.000.822,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\FMX\GMCircleFMX.pas</Transaction>
+    <Transaction>2014/06/17 15:35:23.000.990,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\FMX\GMMarkerFMX.pas</Transaction>
+    <Transaction>2014/06/17 15:35:23.000.870,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\FMX\GMElevationFMX.pas</Transaction>
+    <Transaction>2014/06/17 15:35:24.000.142,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\FMX\WebControlFMX.pas</Transaction>
+    <Transaction>2014/06/17 15:35:24.000.045,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\FMX\GMRectangleFMX.pas</Transaction>
+    <Transaction>2014/06/17 15:35:24.000.036,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\FMX\GMPolylineFMX.pas</Transaction>
+    <Transaction>2014/06/17 15:35:24.000.053,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\FMX\RegisterCompFMX.pas</Transaction>
+    <Transaction>2014/06/17 15:55:23.000.596,=fmx.dcp</Transaction>
+  </Transactions>
+</BorlandProject>

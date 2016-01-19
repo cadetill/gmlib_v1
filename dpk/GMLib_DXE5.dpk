@@ -1,0 +1,57 @@
+package GMLib_DXE5;
+
+{$R *.res}
+{$R '..\Resources\gmlibres.RES'}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$DESCRIPTION 'GoogleMaps Library v1.5.3 (Copyright © Xavier Martínez - cadetill)'}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  xmlrtl,
+  dbrtl;
+
+contains
+  GMCircle in '..\src\GMCircle.pas',
+  GMClasses in '..\src\GMClasses.pas',
+  GMConstants in '..\src\GMConstants.pas',
+  GMElevation in '..\src\GMElevation.pas',
+  GMFunctions in '..\src\GMFunctions.pas',
+  GMGroundOverlay in '..\src\GMGroundOverlay.pas',
+  GMInfoWindow in '..\src\GMInfoWindow.pas',
+  GMLinkedComponents in '..\src\GMLinkedComponents.pas',
+  GMMap in '..\src\GMMap.pas',
+  GMPolyline in '..\src\GMPolyline.pas',
+  GMRectangle in '..\src\GMRectangle.pas',
+  Lang in '..\src\Lang.pas',
+  RegisterComp in '..\src\RegisterComp.pas',
+  WebControl in '..\src\WebControl.pas',
+  GMMarker in '..\src\GMMarker.pas',
+  GMDirection in '..\src\GMDirection.pas',
+  GMGeoCode in '..\src\GMGeoCode.pas',
+  GMHeatmap in '..\src\GMHeatmap.pas';
+
+end.

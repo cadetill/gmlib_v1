@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2012/08/03 10:28:14.000.043,=rtl.dcp</Transaction>
+    <Transaction>2012/08/03 10:28:42.000.872,D:\Docs\RAD Studio\Projects\Package1.dproj=D:\Docs\Dropbox\Programacio\GoogleMaps\Components\dpk\GMLibEdit_DXE2.dproj</Transaction>
+    <Transaction>2012/08/03 10:31:05.000.468,=D:\Docs\Dropbox\Programacio\GoogleMaps\Components\src\RegisterEditors.pas</Transaction>
+    <Transaction>2012/08/03 10:31:05.000.468,=D:\Docs\Dropbox\Programacio\GoogleMaps\Components\src\GMEditors.pas</Transaction>
+    <Transaction>2012/08/03 10:32:45.000.236,=vclie.dcp</Transaction>
+    <Transaction>2012/08/03 10:32:45.000.267,=GMLib_DXE2.dcp</Transaction>
+    <Transaction>2012/08/03 10:32:45.000.251,=vclimg.dcp</Transaction>
+    <Transaction>2012/11/09 10:30:16.000.649,=DCEF_XE2.dcp</Transaction>
+    <Transaction>2012/11/09 10:30:45.000.320,DCEF_XE2.dcp=</Transaction>
+    <Transaction>2012/11/09 14:23:12.000.784,=D:\Docs\Dropbox\Programacio\GoogleMaps\Components\src\UAboutFrm.pas</Transaction>
+    <Transaction>2012/12/12 11:34:51.000.779,D:\Docs\Dropbox\Programacio\GoogleMaps\Components\src\UAboutFrm.pas=</Transaction>
+    <Transaction>2012/12/20 16:53:18.000.827,=D:\Docs\Dropbox\Programacio\GoogleMaps\Components\src\UAboutFrm.pas</Transaction>
+    <Transaction>2012/12/29 15:57:32.000.515,D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\UAboutFrm.pas=</Transaction>
+    <Transaction>2012/12/29 15:57:48.000.610,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\UAboutFrm.pas</Transaction>
+  </Transactions>
+</BorlandProject>

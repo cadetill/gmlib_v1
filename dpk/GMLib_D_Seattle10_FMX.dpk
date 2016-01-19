@@ -1,0 +1,51 @@
+package GMLib_D_Seattle10_FMX;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$DESCRIPTION 'GoogleMaps Library v1.5.2 FMX (Copyright © Xavier Martínez - cadetill)'}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  xmlrtl,
+  dbrtl,
+  fmx,
+  GMLib_D_Seattle10;
+
+contains
+  GMCircleFMX in '..\src\FMX\GMCircleFMX.pas',
+  GMDirectionFMX in '..\src\FMX\GMDirectionFMX.pas',
+  GMElevationFMX in '..\src\FMX\GMElevationFMX.pas',
+  GMFunctionsFMX in '..\src\FMX\GMFunctionsFMX.pas',
+  GMMapFMX in '..\src\FMX\GMMapFMX.pas',
+  GMMarkerFMX in '..\src\FMX\GMMarkerFMX.pas',
+  GMPolygonFMX in '..\src\FMX\GMPolygonFMX.pas',
+  GMPolylineFMX in '..\src\FMX\GMPolylineFMX.pas',
+  GMRectangleFMX in '..\src\FMX\GMRectangleFMX.pas',
+  RegisterCompFMX in '..\src\FMX\RegisterCompFMX.pas',
+  WebControlFMX in '..\src\FMX\WebControlFMX.pas';
+
+end.

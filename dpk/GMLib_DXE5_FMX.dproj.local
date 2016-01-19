@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2013/09/22 12:33:31.000.684,=rtl.dcp</Transaction>
+    <Transaction>2013/09/22 12:34:05.000.076,d:\Docs\RAD Studio\Projects\Package1.dproj=D:\Docs\DropBox\Programacio\GoogleMaps\Components\dpk\GMLib_DXE5_FMX.dproj</Transaction>
+    <Transaction>2013/09/22 12:41:13.000.577,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\FMX\GMPolygonFMX.pas</Transaction>
+    <Transaction>2013/09/22 12:41:13.000.711,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\FMX\GMPolylineFMX.pas</Transaction>
+    <Transaction>2013/09/22 12:41:13.000.484,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\FMX\GMFunctionsFMX.pas</Transaction>
+    <Transaction>2013/09/22 12:41:13.000.782,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\FMX\WebControlFMX.pas</Transaction>
+    <Transaction>2013/09/22 12:41:13.000.497,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\FMX\GMMapFMX.pas</Transaction>
+    <Transaction>2013/09/22 12:41:13.000.452,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\FMX\GMDirectionFMX.pas</Transaction>
+    <Transaction>2013/09/22 12:41:13.000.429,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\FMX\GMCircleFMX.pas</Transaction>
+    <Transaction>2013/09/22 12:41:13.000.757,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\FMX\GMRectangleFMX.pas</Transaction>
+    <Transaction>2013/09/22 12:41:13.000.771,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\FMX\RegisterCompFMX.pas</Transaction>
+    <Transaction>2013/09/22 12:41:13.000.558,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\FMX\GMMarkerFMX.pas</Transaction>
+    <Transaction>2013/09/22 12:41:13.000.475,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\FMX\GMElevationFMX.pas</Transaction>
+    <Transaction>2013/09/22 12:41:29.000.856,=xmlrtl.dcp</Transaction>
+    <Transaction>2013/09/22 12:41:29.000.874,=dbrtl.dcp</Transaction>
+    <Transaction>2013/09/22 12:41:29.000.890,=GMLib_DXE5.dcp</Transaction>
+    <Transaction>2013/09/22 12:41:29.000.883,=fmx.dcp</Transaction>
+  </Transactions>
+</BorlandProject>

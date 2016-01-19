@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2013/05/07 21:06:02.000.898,D:\Docs\DropBox\Programacio\GoogleMaps\Components\dpk\GMLib_DXE4.dproj=D:\Docs\RAD Studio\Projects\Package1.dproj</Transaction>
+    <Transaction>2013/05/07 21:08:27.000.867,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\GMMarker.pas</Transaction>
+    <Transaction>2013/05/07 21:08:27.000.676,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\GMInfoWindow.pas</Transaction>
+    <Transaction>2013/05/07 21:08:28.000.034,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\WebControl.pas</Transaction>
+    <Transaction>2013/05/07 21:20:54.000.922,=xmlrtl.dcp</Transaction>
+    <Transaction>2013/05/07 21:20:54.000.966,=dbrtl.dcp</Transaction>
+    <Transaction>2014/06/17 11:03:58.000.109,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\GMHeatmap.pas</Transaction>
+  </Transactions>
+</BorlandProject>

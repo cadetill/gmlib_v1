@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/04/08 22:35:59.000.786,=rtl.dcp</Transaction>
+    <Transaction>2015/04/08 22:36:32.000.083,C:\Users\cadetill\Documents\Embarcadero\Studio\Projects\Package1.dproj=E:\Programacio\GoogleMaps\Components\dpk\GMLib_DXE8_VCL.dproj</Transaction>
+    <Transaction>2015/04/09 22:51:26.000.491,=E:\Programacio\GoogleMaps\Components\src\VCL\GMMarkerVCL.pas</Transaction>
+    <Transaction>2015/04/09 22:51:26.000.237,=E:\Programacio\GoogleMaps\Components\src\VCL\GMElevationVCL.pas</Transaction>
+    <Transaction>2015/04/09 22:51:26.000.408,=E:\Programacio\GoogleMaps\Components\src\VCL\GMMapVCL.pas</Transaction>
+    <Transaction>2015/04/09 22:51:26.000.064,=E:\Programacio\GoogleMaps\Components\src\VCL\GMCircleVCL.pas</Transaction>
+    <Transaction>2015/04/09 22:51:26.000.804,=E:\Programacio\GoogleMaps\Components\src\VCL\GMRectangleVCL.pas</Transaction>
+    <Transaction>2015/04/09 22:51:26.000.605,=E:\Programacio\GoogleMaps\Components\src\VCL\GMPolygonVCL.pas</Transaction>
+    <Transaction>2015/04/09 22:51:26.000.661,=E:\Programacio\GoogleMaps\Components\src\VCL\GMPolylineVCL.pas</Transaction>
+    <Transaction>2015/04/09 22:51:26.000.297,=E:\Programacio\GoogleMaps\Components\src\VCL\GMFunctionsVCL.pas</Transaction>
+    <Transaction>2015/04/09 22:51:26.000.178,=E:\Programacio\GoogleMaps\Components\src\VCL\GMDirectionVCL.pas</Transaction>
+    <Transaction>2015/04/09 22:51:26.000.930,=E:\Programacio\GoogleMaps\Components\src\VCL\RegisterCompVCL.pas</Transaction>
+    <Transaction>2015/04/09 22:51:27.000.037,=E:\Programacio\GoogleMaps\Components\src\VCL\WebControlVCL.pas</Transaction>
+    <Transaction>2015/04/10 00:16:59.000.469,=vclimg.dcp</Transaction>
+    <Transaction>2015/04/10 00:16:59.000.434,=vcl.dcp</Transaction>
+    <Transaction>2015/04/10 00:16:59.000.546,=dbrtl.dcp</Transaction>
+    <Transaction>2015/04/10 00:16:59.000.399,=xmlrtl.dcp</Transaction>
+    <Transaction>2015/04/10 00:16:59.000.511,=vclie.dcp</Transaction>
+    <Transaction>2015/04/10 00:16:59.000.586,=GMLib_DXE8.dcp</Transaction>
+  </Transactions>
+</BorlandProject>

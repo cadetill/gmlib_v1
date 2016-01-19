@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2013/05/07 22:06:23.000.639,=rtl.dcp</Transaction>
+    <Transaction>2013/05/07 22:07:04.000.468,D:\Docs\DropBox\Programacio\GoogleMaps\Components\dpk\GMLibEdit_DXE4.dproj=D:\Docs\RAD Studio\Projects\Package1.dproj</Transaction>
+    <Transaction>2013/05/07 22:07:40.000.707,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\RegisterEditors.pas</Transaction>
+    <Transaction>2013/05/07 22:07:40.000.686,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\GMEditors.pas</Transaction>
+    <Transaction>2013/05/07 22:07:43.000.414,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\UAboutFrm.pas</Transaction>
+    <Transaction>2013/05/07 22:08:25.000.924,=designide.dcp</Transaction>
+    <Transaction>2013/05/07 22:10:46.000.182,=GMLib_DXE4.dcp</Transaction>
+    <Transaction>2013/05/07 22:10:46.000.109,=vclimg.dcp</Transaction>
+    <Transaction>2013/05/07 22:10:46.000.151,=dbrtl.dcp</Transaction>
+  </Transactions>
+</BorlandProject>
