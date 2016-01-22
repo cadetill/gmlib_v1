@@ -1,4 +1,4 @@
-{
+{ 
 GMCircle unit
 
   ES: contiene las clases bases necesarias para mostrar círculos en un mapa de
@@ -196,7 +196,6 @@ type
       @param Value Nuevo valor
     -------------------------------------------------------------------------------}
     procedure SetSpeed(const Value: Integer); virtual;
-
     {*------------------------------------------------------------------------------
       Radius increment speed in miliseconds.
       @return Owner
