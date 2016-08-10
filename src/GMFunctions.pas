@@ -1799,8 +1799,23 @@ end;
 
 class procedure TGeometry.Interpolate(Map: TCustomGMMap; Origin, Dest: TLatLng;
   Fraction: Real; Result: TLatLng);
+const
+  StrParams = '%s,%s,%s,%s,%s';
+var
+  Params: string;
 begin
+  if not Assigned(Result) then Exit;
 
+  Params := Format(StrParams, [
+                Origin.LatToStr(Map.Precision),
+                Origin.LngToStr(Map.Precision),
+                Dest.LatToStr(Map.Precision),
+                Dest.LngToStr(Map.Precision),
+                StringReplace(FloatToStr(Fraction), ',', '.', [rfReplaceAll])
+              ]);
+  THackMap(Map).ExecuteScript('Interpolate', Params);
+  Result.Lat := Result.StringToReal(THackMap(Map).FWC.GetStringField(GeometryForm, GeometryFormInterLat));
+  Result.Lng := Result.StringToReal(THackMap(Map).FWC.GetStringField(GeometryForm, GeometryFormInterLng));
 end;
 
 class function TGeometry.IsLocationOnEdge(GMPoly: TGMBasePolyline;
