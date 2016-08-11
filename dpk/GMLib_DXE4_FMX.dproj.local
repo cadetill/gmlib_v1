@@ -2,14 +2,14 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2013/05/07 21:58:40.000.549,=rtl.dcp</Transaction>
-    <Transaction>2013/05/07 21:59:22.000.663,D:\Docs\DropBox\Programacio\GoogleMaps\Components\dpk\GMLib_DXE4_FMX.dproj=D:\Docs\RAD Studio\Projects\Package1.dproj</Transaction>
-    <Transaction>2013/05/07 22:00:06.000.531,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\FMX\GMMarkerFMX.pas</Transaction>
+    <Transaction>2013/05/07 21:59:22.000.663,D:\Docs\RAD Studio\Projects\Package1.dproj=D:\Docs\DropBox\Programacio\GoogleMaps\Components\dpk\GMLib_DXE4_FMX.dproj</Transaction>
+    <Transaction>2013/05/07 22:00:06.000.610,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\FMX\GMPolylineFMX.pas</Transaction>
     <Transaction>2013/05/07 22:00:06.000.459,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\FMX\GMFunctionsFMX.pas</Transaction>
     <Transaction>2013/05/07 22:00:06.000.396,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\FMX\GMDirectionFMX.pas</Transaction>
     <Transaction>2013/05/07 22:00:06.000.735,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\FMX\WebControlFMX.pas</Transaction>
     <Transaction>2013/05/07 22:00:06.000.488,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\FMX\GMMapFMX.pas</Transaction>
     <Transaction>2013/05/07 22:00:06.000.569,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\FMX\GMPolygonFMX.pas</Transaction>
-    <Transaction>2013/05/07 22:00:06.000.610,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\FMX\GMPolylineFMX.pas</Transaction>
+    <Transaction>2013/05/07 22:00:06.000.531,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\FMX\GMMarkerFMX.pas</Transaction>
     <Transaction>2013/05/07 22:00:06.000.648,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\FMX\GMRectangleFMX.pas</Transaction>
     <Transaction>2013/05/07 22:00:06.000.338,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\FMX\GMCircleFMX.pas</Transaction>
     <Transaction>2013/05/07 22:00:06.000.428,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\FMX\GMElevationFMX.pas</Transaction>

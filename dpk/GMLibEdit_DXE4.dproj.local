@@ -2,7 +2,7 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2013/05/07 22:06:23.000.639,=rtl.dcp</Transaction>
-    <Transaction>2013/05/07 22:07:04.000.468,D:\Docs\DropBox\Programacio\GoogleMaps\Components\dpk\GMLibEdit_DXE4.dproj=D:\Docs\RAD Studio\Projects\Package1.dproj</Transaction>
+    <Transaction>2013/05/07 22:07:04.000.468,D:\Docs\RAD Studio\Projects\Package1.dproj=D:\Docs\DropBox\Programacio\GoogleMaps\Components\dpk\GMLibEdit_DXE4.dproj</Transaction>
     <Transaction>2013/05/07 22:07:40.000.707,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\RegisterEditors.pas</Transaction>
     <Transaction>2013/05/07 22:07:40.000.686,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\GMEditors.pas</Transaction>
     <Transaction>2013/05/07 22:07:43.000.414,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\UAboutFrm.pas</Transaction>

@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>2012/12/26 19:41:40.000.589,D:\Docs\DropBox\Programacio\GoogleMaps\Components\dpk\GMLib_DXE3.dproj=D:\Docs\RAD Studio\Projects\Package1.dproj</Transaction>
-    <Transaction>2013/05/16 10:14:33.000.506,D:\Docs\Dropbox\Programacio\GoogleMaps\Components\dpk\Unit1.pas=D:\Docs\Dropbox\Programacio\GoogleMaps\Components\src\CurvePolyline.pas</Transaction>
+    <Transaction>2012/12/26 19:41:40.000.589,D:\Docs\RAD Studio\Projects\Package1.dproj=D:\Docs\DropBox\Programacio\GoogleMaps\Components\dpk\GMLib_DXE3.dproj</Transaction>
+    <Transaction>2013/05/16 10:14:33.000.506,D:\Docs\Dropbox\Programacio\GoogleMaps\Components\src\CurvePolyline.pas=D:\Docs\Dropbox\Programacio\GoogleMaps\Components\dpk\Unit1.pas</Transaction>
     <Transaction>2014/05/06 07:56:11.000.710,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\dpk\Unit1.pas</Transaction>
-    <Transaction>2014/05/06 07:56:37.000.184,D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\GMHeatmap.pas=D:\Docs\DropBox\Programacio\GoogleMaps\Components\dpk\Unit1.pas</Transaction>
+    <Transaction>2014/05/06 07:56:37.000.184,D:\Docs\DropBox\Programacio\GoogleMaps\Components\dpk\Unit1.pas=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\GMHeatmap.pas</Transaction>
   </Transactions>
 	<ProjectSortOrder AutoSort="0" SortType="0">
-    <File Path="..\..\Components"/>
+    <File Path="..\..\gmlib_v1"/>
     <File Path="..\Resources"/>
     <File Path="..\Resources\gmlibres.RES"/>
     <File Path="..\src"/>

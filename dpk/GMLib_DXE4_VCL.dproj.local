@@ -2,18 +2,18 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2013/05/07 21:25:01.000.051,=rtl.dcp</Transaction>
-    <Transaction>2013/05/07 21:25:14.000.673,D:\Docs\RAD Studio\Projects\Package1.dproj=D:\Docs\DropBox\Programacio\GoogleMaps\Components\dpk\GMLib_DXE4_VCL.dproj</Transaction>
-    <Transaction>2013/05/07 21:26:08.000.390,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\VCL\WebControlVCL.pas</Transaction>
-    <Transaction>2013/05/07 21:26:08.000.279,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\VCL\GMPolylineVCL.pas</Transaction>
+    <Transaction>2013/05/07 21:25:14.000.673,D:\Docs\DropBox\Programacio\GoogleMaps\Components\dpk\GMLib_DXE4_VCL.dproj=D:\Docs\RAD Studio\Projects\Package1.dproj</Transaction>
     <Transaction>2013/05/07 21:26:08.000.155,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\VCL\GMFunctionsVCL.pas</Transaction>
-    <Transaction>2013/05/07 21:26:08.000.316,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\VCL\GMRectangleVCL.pas</Transaction>
-    <Transaction>2013/05/07 21:26:08.000.218,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\VCL\GMMarkerVCL.pas</Transaction>
-    <Transaction>2013/05/07 21:26:08.000.249,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\VCL\GMPolygonVCL.pas</Transaction>
-    <Transaction>2013/05/07 21:26:08.000.069,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\VCL\GMDirectionVCL.pas</Transaction>
-    <Transaction>2013/05/07 21:26:08.000.188,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\VCL\GMMapVCL.pas</Transaction>
-    <Transaction>2013/05/07 21:26:08.000.356,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\VCL\RegisterCompVCL.pas</Transaction>
     <Transaction>2013/05/07 21:26:08.000.104,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\VCL\GMElevationVCL.pas</Transaction>
+    <Transaction>2013/05/07 21:26:08.000.316,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\VCL\GMRectangleVCL.pas</Transaction>
+    <Transaction>2013/05/07 21:26:08.000.390,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\VCL\WebControlVCL.pas</Transaction>
+    <Transaction>2013/05/07 21:26:08.000.218,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\VCL\GMMarkerVCL.pas</Transaction>
+    <Transaction>2013/05/07 21:26:08.000.069,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\VCL\GMDirectionVCL.pas</Transaction>
+    <Transaction>2013/05/07 21:26:08.000.249,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\VCL\GMPolygonVCL.pas</Transaction>
     <Transaction>2013/05/07 21:26:08.000.035,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\VCL\GMCircleVCL.pas</Transaction>
+    <Transaction>2013/05/07 21:26:08.000.356,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\VCL\RegisterCompVCL.pas</Transaction>
+    <Transaction>2013/05/07 21:26:08.000.279,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\VCL\GMPolylineVCL.pas</Transaction>
+    <Transaction>2013/05/07 21:26:08.000.188,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\VCL\GMMapVCL.pas</Transaction>
     <Transaction>2013/05/07 21:57:24.000.851,=designide.dcp</Transaction>
     <Transaction>2013/05/07 21:57:39.000.457,=vclimg.dcp</Transaction>
     <Transaction>2013/05/07 21:57:39.000.529,=GMLib_DXE4.dcp</Transaction>

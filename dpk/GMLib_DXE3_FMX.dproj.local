@@ -1,15 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>2013/01/03 11:24:47.000.541,D:\Docs\RAD Studio\Projects\Package1.dproj=D:\Docs\DropBox\Programacio\GoogleMaps\Components\dpk\GMLib_DXE3_FMX.dproj</Transaction>
+    <Transaction>2013/01/03 11:24:47.000.541,D:\Docs\DropBox\Programacio\GoogleMaps\Components\dpk\GMLib_DXE3_FMX.dproj=D:\Docs\RAD Studio\Projects\Package1.dproj</Transaction>
   </Transactions>
 	<ProjectSortOrder AutoSort="0" SortType="0">
-    <File Path="dbrtl.dcp"/>
-    <File Path="fmx.dcp"/>
-    <File Path="GMLib_DXE3.dcp"/>
-    <File Path="rtl.dcp"/>
-    <File Path="xmlrtl.dcp"/>
-    <File Path="..\..\Components"/>
+    <File Path="..\..\gmlib_v1"/>
     <File Path="..\src"/>
     <File Path="..\src\FMX"/>
     <File Path="..\src\FMX\GMCircleFMX.pas"/>
@@ -23,5 +18,10 @@
     <File Path="..\src\FMX\GMRectangleFMX.pas"/>
     <File Path="..\src\FMX\RegisterCompFMX.pas"/>
     <File Path="..\src\FMX\WebControlFMX.pas"/>
+    <File Path="dbrtl.dcp"/>
+    <File Path="fmx.dcp"/>
+    <File Path="GMLib_DXE3.dcp"/>
+    <File Path="rtl.dcp"/>
+    <File Path="xmlrtl.dcp"/>
   </ProjectSortOrder>
 </BorlandProject>

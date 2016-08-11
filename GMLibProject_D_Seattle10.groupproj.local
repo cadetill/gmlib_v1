@@ -4,6 +4,6 @@
     <Transaction>2015/09/21 19:15:19.000.803,D:\Documents\Embarcadero\Studio\Projects\ProjectGroup1.groupproj=D:\Documents\Dropbox\Programacio\GoogleMaps\Components\GMLibProject_D_Seattle10.groupproj</Transaction>
   </Transactions>
 	<Default.Personality>
-		<Projects ActiveProject="D:\Documents\Dropbox\Programacio\GoogleMaps\Components\Demos\MegaDemo\MegaDemo.dproj"/>
+		<Projects ActiveProject="D:\Documents\Dropbox\Programacio\GoogleMaps\Components\gmlib_v1\dpk\GMLib_D_Seattle10.dproj"/>
 	</Default.Personality>
 </BorlandProject>

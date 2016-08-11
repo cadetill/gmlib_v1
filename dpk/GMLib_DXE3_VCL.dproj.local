@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>2013/01/03 11:23:13.000.960,D:\Docs\DropBox\Programacio\GoogleMaps\Components\dpk\GMLib_DXE3_VCL.dproj=D:\Docs\RAD Studio\Projects\Package1.dproj</Transaction>
+    <Transaction>2013/01/03 11:23:13.000.960,D:\Docs\RAD Studio\Projects\Package1.dproj=D:\Docs\DropBox\Programacio\GoogleMaps\Components\dpk\GMLib_DXE3_VCL.dproj</Transaction>
     <Transaction>2014/05/06 08:24:46.000.447,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\dpk\Unit1.pas</Transaction>
-    <Transaction>2014/05/06 08:25:26.000.898,D:\Docs\DropBox\Programacio\GoogleMaps\Components\dpk\Unit1.pas=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\VCL\GMHeatmapVCL.pas</Transaction>
+    <Transaction>2014/05/06 08:25:26.000.898,D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\VCL\GMHeatmapVCL.pas=D:\Docs\DropBox\Programacio\GoogleMaps\Components\dpk\Unit1.pas</Transaction>
   </Transactions>
 </BorlandProject>
