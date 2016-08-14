@@ -1,0 +1,160 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{FADA727B-98F8-4BAB-8E72-50CB5424E0BF}</ProjectGuid>
+			<MainSource>GMLib_D2010.dpk</MainSource>
+			<ProjectVersion>12.0</ProjectVersion>
+			<Config Condition="'$(Config)'==''">Debug</Config>
+			<DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_1)'!=''">
+			<Cfg_1>true</Cfg_1>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_2)'!=''">
+			<Cfg_2>true</Cfg_2>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base)'!=''">
+			<DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
+			<DCC_UnitSearchPath>..\lib\D2010;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
+			<DCC_DependencyCheckOutputName>C:\Users\Public\Documents\RAD Studio\7.0\Bpl\GMLib_D2010.bpl</DCC_DependencyCheckOutputName>
+			<DesignOnlyPackage>false</DesignOnlyPackage>
+			<DCC_UnitAlias>WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;$(DCC_UnitAlias)</DCC_UnitAlias>
+        <DCC_Description>GoogleMaps Library v1.5.3 (Copyright © Xavier Martínez - cadetill)</DCC_Description>
+			<DCC_DcpOutput>..\lib\D2010</DCC_DcpOutput>
+			<GenDll>true</GenDll>
+			<DCC_DcuOutput>..\lib\D2010</DCC_DcuOutput>
+			<GenPackage>true</GenPackage>
+			<DCC_ImageBase>00400000</DCC_ImageBase>
+			<DCC_Platform>x86</DCC_Platform>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_1)'!=''">
+			<DCC_LocalDebugSymbols>false</DCC_LocalDebugSymbols>
+			<DCC_Define>RELEASE;$(DCC_Define)</DCC_Define>
+			<DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+			<DCC_DebugInformation>false</DCC_DebugInformation>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_2)'!=''">
+			<DCC_MapFile>3</DCC_MapFile>
+		</PropertyGroup>
+		<ItemGroup>
+			<DelphiCompile Include="GMLib_D2010.dpk">
+				<MainSource>MainSource</MainSource>
+			</DelphiCompile>
+			<DCCReference Include="..\Resources\gmlibres.RES"/>
+			<DCCReference Include="rtl.dcp"/>
+			<DCCReference Include="vcl.dcp"/>
+			<DCCReference Include="vclimg.dcp"/>
+			<DCCReference Include="vclie.dcp"/>
+			<DCCReference Include="xmlrtl.dcp"/>
+			<DCCReference Include="dbrtl.dcp"/>
+			<DCCReference Include="designide.dcp"/>
+			<DCCReference Include="..\src\RegisterComp.pas"/>
+			<DCCReference Include="..\src\WebControl.pas"/>
+			<DCCReference Include="..\src\GMCircle.pas"/>
+			<DCCReference Include="..\src\GMClasses.pas"/>
+			<DCCReference Include="..\src\GMConstants.pas"/>
+			<DCCReference Include="..\src\GMDirection.pas"/>
+			<DCCReference Include="..\src\GMElevation.pas"/>
+			<DCCReference Include="..\src\GMFunctions.pas"/>
+			<DCCReference Include="..\src\GMGeoCode.pas"/>
+			<DCCReference Include="..\src\GMInfoWindow.pas"/>
+			<DCCReference Include="..\src\GMLinkedComponents.pas"/>
+			<DCCReference Include="..\src\GMMap.pas"/>
+			<DCCReference Include="..\src\GMMarker.pas"/>
+			<DCCReference Include="..\src\GMPolyline.pas"/>
+			<DCCReference Include="..\src\GMRectangle.pas"/>
+			<DCCReference Include="..\src\Lang.pas"/>
+			<DCCReference Include="..\src\VCL\WebControlVCL.pas"/>
+			<DCCReference Include="..\src\VCL\GMCircleVCL.pas"/>
+			<DCCReference Include="..\src\VCL\GMDirectionVCL.pas"/>
+			<DCCReference Include="..\src\VCL\GMElevationVCL.pas"/>
+			<DCCReference Include="..\src\VCL\GMFunctionsVCL.pas"/>
+			<DCCReference Include="..\src\VCL\GMMapVCL.pas"/>
+			<DCCReference Include="..\src\VCL\GMMarkerVCL.pas"/>
+			<DCCReference Include="..\src\VCL\GMPolygonVCL.pas"/>
+			<DCCReference Include="..\src\VCL\GMPolylineVCL.pas"/>
+			<DCCReference Include="..\src\VCL\GMRectangleVCL.pas"/>
+			<DCCReference Include="..\src\VCL\RegisterCompVCL.pas"/>
+			<DCCReference Include="..\src\GMGroundOverlay.pas"/>
+			<DCCReference Include="..\src\GMEditors.pas"/>
+			<DCCReference Include="..\src\RegisterEditors.pas"/>
+			<DCCReference Include="..\src\UAboutFrm.pas">
+				<Form>AboutFrm</Form>
+			</DCCReference>
+			<DCCReference Include="..\src\GMHeatmap.pas"/>
+			<BuildConfiguration Include="Base">
+				<Key>Base</Key>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Debug">
+				<Key>Cfg_2</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Release">
+				<Key>Cfg_1</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+		</ItemGroup>
+		<Import Project="$(BDS)\Bin\CodeGear.Delphi.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')"/>
+		<ProjectExtensions>
+			<Borland.Personality>Delphi.Personality.12</Borland.Personality>
+			<Borland.ProjectType>Package</Borland.ProjectType>
+			<BorlandProject>
+				<Delphi.Personality>
+					<Source>
+						<Source Name="MainSource">GMLib_D2010.dpk</Source>
+					</Source>
+					<Parameters>
+						<Parameters Name="UseLauncher">False</Parameters>
+						<Parameters Name="LoadAllSymbols">True</Parameters>
+						<Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+					</Parameters>
+					<VersionInfo>
+						<VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+						<VersionInfo Name="AutoIncBuild">False</VersionInfo>
+						<VersionInfo Name="MajorVer">0</VersionInfo>
+						<VersionInfo Name="MinorVer">1</VersionInfo>
+						<VersionInfo Name="Release">5</VersionInfo>
+						<VersionInfo Name="Build">3</VersionInfo>
+						<VersionInfo Name="Debug">False</VersionInfo>
+						<VersionInfo Name="PreRelease">False</VersionInfo>
+						<VersionInfo Name="Special">False</VersionInfo>
+						<VersionInfo Name="Private">False</VersionInfo>
+						<VersionInfo Name="DLL">False</VersionInfo>
+						<VersionInfo Name="Locale">3082</VersionInfo>
+						<VersionInfo Name="CodePage">1252</VersionInfo>
+					</VersionInfo>
+					<VersionInfoKeys>
+						<VersionInfoKeys Name="CompanyName">www.cadetill.com</VersionInfoKeys>
+						<VersionInfoKeys Name="FileDescription"/>
+						<VersionInfoKeys Name="FileVersion">0.1.5.3</VersionInfoKeys>
+						<VersionInfoKeys Name="InternalName">GMLib</VersionInfoKeys>
+						<VersionInfoKeys Name="LegalCopyright">Copyright © Xavier Martínez - cadetill</VersionInfoKeys>
+						<VersionInfoKeys Name="LegalTrademarks"/>
+						<VersionInfoKeys Name="OriginalFilename"/>
+						<VersionInfoKeys Name="ProductName">GoogleMaps Library</VersionInfoKeys>
+						<VersionInfoKeys Name="ProductVersion">0.1.5.3</VersionInfoKeys>
+						<VersionInfoKeys Name="Comments"/>
+					</VersionInfoKeys>
+					<Excluded_Packages>
+						<Excluded_Packages Name="$(BDS)\bin\dcloffice2k140.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
+						<Excluded_Packages Name="$(BDS)\bin\dclofficexp140.bpl">Microsoft Office XP Sample Automation Server Wrapper Components</Excluded_Packages>
+					</Excluded_Packages>
+				</Delphi.Personality>
+			</BorlandProject>
+			<ProjectFileVersion>12</ProjectFileVersion>
+		</ProjectExtensions>
+	</Project>
+
+<!-- EurekaLog First Line
+[Exception Log]
+EurekaLog Version=7007
+Activate=0
+DeleteMapAfterCompile=1
+Encrypt Password=""
+EurekaLog Last Line -->

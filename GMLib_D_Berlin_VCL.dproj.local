@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/08/11 15:17:52.000.505,=rtl.dcp</Transaction>
+    <Transaction>2016/08/11 15:40:13.000.616,=rtl.dcp</Transaction>
+    <Transaction>2016/08/11 15:42:00.000.037,C:\Users\cadet\OneDrive\Documentos\Embarcadero\Studio\Projects\Package1.dproj=D:\Docs\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\dpk\GMLib_D_Berlin_VCL.dproj</Transaction>
+    <Transaction>2016/08/13 16:59:15.943,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\VCL\GMCircleVCL.pas</Transaction>
+    <Transaction>2016/08/13 16:59:16.057,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\VCL\GMDirectionVCL.pas</Transaction>
+    <Transaction>2016/08/13 16:59:16.107,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\VCL\GMElevationVCL.pas</Transaction>
+    <Transaction>2016/08/13 16:59:16.192,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\VCL\GMFunctionsVCL.pas</Transaction>
+    <Transaction>2016/08/13 16:59:16.227,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\VCL\GMMapVCL.pas</Transaction>
+    <Transaction>2016/08/13 16:59:16.254,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\VCL\GMMarkerVCL.pas</Transaction>
+    <Transaction>2016/08/13 16:59:16.291,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\VCL\GMPolygonVCL.pas</Transaction>
+    <Transaction>2016/08/13 16:59:18.985,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\VCL\GMPolylineVCL.pas</Transaction>
+    <Transaction>2016/08/13 16:59:19.021,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\VCL\GMRectangleVCL.pas</Transaction>
+    <Transaction>2016/08/13 16:59:19.062,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\VCL\RegisterCompVCL.pas</Transaction>
+    <Transaction>2016/08/13 16:59:19.088,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\VCL\WebControlVCL.pas</Transaction>
+    <Transaction>2016/08/13 17:01:49.574,=xmlrtl.dcp</Transaction>
+    <Transaction>2016/08/13 17:01:49.584,=vcl.dcp</Transaction>
+    <Transaction>2016/08/13 17:01:49.594,=vclimg.dcp</Transaction>
+    <Transaction>2016/08/13 17:01:49.604,=vclie.dcp</Transaction>
+    <Transaction>2016/08/13 17:01:49.613,=dbrtl.dcp</Transaction>
+    <Transaction>2016/08/13 17:01:49.623,=GMLib_D_Berlin.dcp</Transaction>
+  </Transactions>
+</BorlandProject>

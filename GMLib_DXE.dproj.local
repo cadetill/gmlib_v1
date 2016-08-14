@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2013/01/14 21:10:01.000.781,=rtl.dcp</Transaction>
+    <Transaction>2013/01/14 21:10:56.000.187,C:\Documents and Settings\administrador.JULIAWWW\Mis documentos\RAD Studio\Projects\Package1.dproj=D:\Components\gmlib_0.1.9\dpk\GMLib_DXE.dproj</Transaction>
+    <Transaction>2013/01/14 21:17:36.000.359,=D:\Components\gmlib_0.1.9\src\GMElevation.pas</Transaction>
+    <Transaction>2013/01/14 21:17:36.000.500,=D:\Components\gmlib_0.1.9\src\GMMarker.pas</Transaction>
+    <Transaction>2013/01/14 21:17:36.000.406,=D:\Components\gmlib_0.1.9\src\GMInfoWindow.pas</Transaction>
+    <Transaction>2013/01/14 21:17:36.000.468,=D:\Components\gmlib_0.1.9\src\GMMap.pas</Transaction>
+    <Transaction>2013/01/14 21:17:36.000.296,=D:\Components\gmlib_0.1.9\src\GMClasses.pas</Transaction>
+    <Transaction>2013/01/14 21:17:36.000.578,=D:\Components\gmlib_0.1.9\src\RegisterComp.pas</Transaction>
+    <Transaction>2013/01/14 21:17:36.000.531,=D:\Components\gmlib_0.1.9\src\GMRectangle.pas</Transaction>
+    <Transaction>2013/01/14 21:17:36.000.343,=D:\Components\gmlib_0.1.9\src\GMDirection.pas</Transaction>
+    <Transaction>2013/01/14 21:17:36.000.390,=D:\Components\gmlib_0.1.9\src\GMGeoCode.pas</Transaction>
+    <Transaction>2013/01/14 21:17:36.000.593,=D:\Components\gmlib_0.1.9\src\WebControl.pas</Transaction>
+    <Transaction>2013/01/14 21:17:36.000.312,=D:\Components\gmlib_0.1.9\src\GMConstants.pas</Transaction>
+    <Transaction>2013/01/14 21:17:36.000.515,=D:\Components\gmlib_0.1.9\src\GMPolyline.pas</Transaction>
+    <Transaction>2013/01/14 21:17:36.000.562,=D:\Components\gmlib_0.1.9\src\Lang.pas</Transaction>
+    <Transaction>2013/01/14 21:17:36.000.250,=D:\Components\gmlib_0.1.9\src\GMCircle.pas</Transaction>
+    <Transaction>2013/01/14 21:17:36.000.375,=D:\Components\gmlib_0.1.9\src\GMFunctions.pas</Transaction>
+    <Transaction>2013/01/14 21:17:36.000.437,=D:\Components\gmlib_0.1.9\src\GMLinkedComponents.pas</Transaction>
+    <Transaction>2013/01/14 21:17:44.000.515,=D:\Components\gmlib_0.1.9\src\VCL\GMMapVCL.pas</Transaction>
+    <Transaction>2013/01/14 21:17:44.000.375,=D:\Components\gmlib_0.1.9\src\VCL\WebControlVCL.pas</Transaction>
+    <Transaction>2013/01/14 21:17:44.000.578,=D:\Components\gmlib_0.1.9\src\VCL\GMPolylineVCL.pas</Transaction>
+    <Transaction>2013/01/14 21:17:44.000.531,=D:\Components\gmlib_0.1.9\src\VCL\GMMarkerVCL.pas</Transaction>
+    <Transaction>2013/01/14 21:17:44.000.468,=D:\Components\gmlib_0.1.9\src\VCL\GMElevationVCL.pas</Transaction>
+    <Transaction>2013/01/14 21:17:44.000.562,=D:\Components\gmlib_0.1.9\src\VCL\GMPolygonVCL.pas</Transaction>
+    <Transaction>2013/01/14 21:17:44.000.609,=D:\Components\gmlib_0.1.9\src\VCL\GMRectangleVCL.pas</Transaction>
+    <Transaction>2013/01/14 21:17:44.000.625,=D:\Components\gmlib_0.1.9\src\VCL\RegisterCompVCL.pas</Transaction>
+    <Transaction>2013/01/14 21:17:44.000.484,=D:\Components\gmlib_0.1.9\src\VCL\GMFunctionsVCL.pas</Transaction>
+    <Transaction>2013/01/14 21:17:44.000.453,=D:\Components\gmlib_0.1.9\src\VCL\GMDirectionVCL.pas</Transaction>
+    <Transaction>2013/01/14 21:17:44.000.437,=D:\Components\gmlib_0.1.9\src\VCL\GMCircleVCL.pas</Transaction>
+    <Transaction>2013/01/14 21:21:50.000.953,=vcl.dcp</Transaction>
+    <Transaction>2013/01/14 21:21:50.000.921,=vclimg.dcp</Transaction>
+    <Transaction>2013/01/14 21:21:50.000.968,=vclie.dcp</Transaction>
+    <Transaction>2013/01/14 21:21:50.000.968,=dbrtl.dcp</Transaction>
+    <Transaction>2013/01/14 21:21:50.000.953,=xmlrtl.dcp</Transaction>
+    <Transaction>2013/04/14 01:18:25.000.062,=D:\Components\Dropbox\Programacio\GoogleMaps\Components\src\GMGroundOverlay.pas</Transaction>
+    <Transaction>2013/05/08 17:12:53.000.375,=D:\Components\Dropbox\Programacio\GoogleMaps\Components\src\GMEditors.pas</Transaction>
+    <Transaction>2013/05/08 17:12:53.000.406,=D:\Components\Dropbox\Programacio\GoogleMaps\Components\src\RegisterEditors.pas</Transaction>
+    <Transaction>2013/05/08 17:12:53.000.359,=D:\Components\Dropbox\Programacio\GoogleMaps\Components\src\UAboutFrm.pas</Transaction>
+    <Transaction>2013/05/08 17:13:21.000.796,=designide.dcp</Transaction>
+    <Transaction>2014/06/17 10:16:02.000.832,=D:\Docs\DropBox\Programacio\GoogleMaps\Components\src\GMHeatmap.pas</Transaction>
+  </Transactions>
+</BorlandProject>

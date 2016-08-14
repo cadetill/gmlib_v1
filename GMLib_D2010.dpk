@@ -1,0 +1,77 @@
+package GMLib_D2010;
+
+{$R *.res}
+{$R '..\Resources\gmlibres.RES'}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'GoogleMaps Library v1.5.3 (Copyright © Xavier Martínez - cadetill)'}
+{$IMPLICITBUILD ON}
+{$DEFINE DEBUG}
+
+requires
+  rtl,
+  vcl,
+  vclimg,
+  vclie,
+  xmlrtl,
+  dbrtl,
+  designide;
+
+contains
+  RegisterComp in '..\src\RegisterComp.pas',
+  WebControl in '..\src\WebControl.pas',
+  GMCircle in '..\src\GMCircle.pas',
+  GMClasses in '..\src\GMClasses.pas',
+  GMConstants in '..\src\GMConstants.pas',
+  GMDirection in '..\src\GMDirection.pas',
+  GMElevation in '..\src\GMElevation.pas',
+  GMFunctions in '..\src\GMFunctions.pas',
+  GMGeoCode in '..\src\GMGeoCode.pas',
+  GMInfoWindow in '..\src\GMInfoWindow.pas',
+  GMLinkedComponents in '..\src\GMLinkedComponents.pas',
+  GMMap in '..\src\GMMap.pas',
+  GMMarker in '..\src\GMMarker.pas',
+  GMPolyline in '..\src\GMPolyline.pas',
+  GMRectangle in '..\src\GMRectangle.pas',
+  Lang in '..\src\Lang.pas',
+  WebControlVCL in '..\src\VCL\WebControlVCL.pas',
+  GMCircleVCL in '..\src\VCL\GMCircleVCL.pas',
+  GMDirectionVCL in '..\src\VCL\GMDirectionVCL.pas',
+  GMElevationVCL in '..\src\VCL\GMElevationVCL.pas',
+  GMFunctionsVCL in '..\src\VCL\GMFunctionsVCL.pas',
+  GMMapVCL in '..\src\VCL\GMMapVCL.pas',
+  GMMarkerVCL in '..\src\VCL\GMMarkerVCL.pas',
+  GMPolygonVCL in '..\src\VCL\GMPolygonVCL.pas',
+  GMPolylineVCL in '..\src\VCL\GMPolylineVCL.pas',
+  GMRectangleVCL in '..\src\VCL\GMRectangleVCL.pas',
+  RegisterCompVCL in '..\src\VCL\RegisterCompVCL.pas',
+  GMGroundOverlay in '..\src\GMGroundOverlay.pas',
+  GMEditors in '..\src\GMEditors.pas',
+  RegisterEditors in '..\src\RegisterEditors.pas',
+  UAboutFrm in '..\src\UAboutFrm.pas' {AboutFrm},
+  GMHeatmap in '..\src\GMHeatmap.pas';
+
+end.
+
+
+
+
