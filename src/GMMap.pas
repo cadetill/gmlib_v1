@@ -3068,7 +3068,7 @@ function TCustomGMMap.GetZoom: Integer;
 begin
   Result := 0;
 
-  if Assigned(FWC) and ExecuteScript('MapGetZoom(', '') then
+  if Assigned(FWC) and ExecuteScript('MapGetZoom', '') then
     Result := FWC.GetIntegerField(MapForm, MapFormZoom);
 end;
 
