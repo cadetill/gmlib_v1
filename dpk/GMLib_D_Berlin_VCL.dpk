@@ -29,6 +29,25 @@ package GMLib_D_Berlin_VCL;
 {$IMPLICITBUILD ON}
 
 requires
-  rtl;
+  rtl,
+  xmlrtl,
+  vcl,
+  vclimg,
+  vclie,
+  dbrtl,
+  GMLib_D_Berlin;
+
+contains
+  GMCircleVCL in '..\src\VCL\GMCircleVCL.pas',
+  GMDirectionVCL in '..\src\VCL\GMDirectionVCL.pas',
+  GMElevationVCL in '..\src\VCL\GMElevationVCL.pas',
+  GMFunctionsVCL in '..\src\VCL\GMFunctionsVCL.pas',
+  GMMapVCL in '..\src\VCL\GMMapVCL.pas',
+  GMMarkerVCL in '..\src\VCL\GMMarkerVCL.pas',
+  GMPolygonVCL in '..\src\VCL\GMPolygonVCL.pas',
+  GMPolylineVCL in '..\src\VCL\GMPolylineVCL.pas',
+  GMRectangleVCL in '..\src\VCL\GMRectangleVCL.pas',
+  RegisterCompVCL in '..\src\VCL\RegisterCompVCL.pas',
+  WebControlVCL in '..\src\VCL\WebControlVCL.pas';
 
 end.
