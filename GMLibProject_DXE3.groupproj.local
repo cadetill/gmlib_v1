@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
@@ -7,3 +8,14 @@
 		<Projects ActiveProject="d:\Docs\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\Demos\MegaDemo\MegaDemo.dproj"/>
 	</Default.Personality>
 </BorlandProject>
+=======
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2012/09/17 11:12:25.000.671,D:\Docs\DropBox\Programacio\GoogleMaps\Components\GMLibProject_DXE3.groupproj=D:\Docs\RAD Studio\Projects\ProjectGroup1.groupproj</Transaction>
+  </Transactions>
+	<Default.Personality>
+		<Projects ActiveProject="d:\Docs\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\Demos\MegaDemo\MegaDemo.dproj"/>
+	</Default.Personality>
+</BorlandProject>
+>>>>>>> 24c88e09763adfa66f47901207ad45afca285772
