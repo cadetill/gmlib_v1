@@ -1,6 +1,6 @@
 ﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
     <PropertyGroup>
-        <ProjectGuid>{4DD85583-144B-4E0C-AA7B-EABDA646F6F3}</ProjectGuid>
+        <ProjectGuid>{4DD85583-144B-4E0C-AA7B-EABDA646F6F3}</ProjectGuid> 
         <MainSource>GMLibEdit_D_Berlin.dpk</MainSource>
         <ProjectVersion>18.1</ProjectVersion>
         <FrameworkType>None</FrameworkType>

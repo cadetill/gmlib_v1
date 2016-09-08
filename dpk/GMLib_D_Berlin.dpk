@@ -2,7 +2,7 @@ package GMLib_D_Berlin;
 
 {$R *.res}
 {$R '..\Resources\gmlibres.RES'}
-{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users} 
 {$ALIGN 8}
 {$ASSERTIONS ON}
 {$BOOLEVAL OFF}

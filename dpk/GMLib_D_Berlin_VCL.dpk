@@ -1,11 +1,11 @@
-package GMLib_D_Berlin_VCL;
+package GMLib_D_Berlin_VCL; 
 
 {$R *.res}
 {$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
 {$ALIGN 8}
 {$ASSERTIONS ON}
 {$BOOLEVAL OFF}
-{$DEBUGINFO OFF}
+{$DEBUGINFO OFF} 
 {$EXTENDEDSYNTAX ON}
 {$IMPORTEDDATA ON}
 {$IOCHECKS ON}

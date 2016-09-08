@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 ﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
     <PropertyGroup>
-        <ProjectGuid>{2B5E1032-3E12-458A-A6C4-AD131CD58E4C}</ProjectGuid>
+        <ProjectGuid>{2B5E1032-3E12-458A-A6C4-AD131CD58E4C}</ProjectGuid> 
         <MainSource>GMLib_D_Berlin.dpk</MainSource>
         <ProjectVersion>18.1</ProjectVersion>
         <FrameworkType>None</FrameworkType>

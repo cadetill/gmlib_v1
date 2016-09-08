@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003"> 
     <PropertyGroup>
         <ProjectGuid>{F4DF9015-0D94-47D3-8E4F-D543AF6D6132}</ProjectGuid>
         <MainSource>GMLib_D_Berlin_VCL.dpk</MainSource>
