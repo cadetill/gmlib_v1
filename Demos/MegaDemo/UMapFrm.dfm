@@ -21,7 +21,7 @@ object MapFrm: TMapFrm
     Top = 0
     Width = 564
     Height = 415
-    ActivePage = tsVisual
+    ActivePage = tsRequired
     Align = alClient
     TabOrder = 0
     object tsGeneral: TTabSheet
