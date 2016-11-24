@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-// *** Fred : modified by Fred 28/09/2014 : added KML layer features
-
 {
 GMMap unit
 

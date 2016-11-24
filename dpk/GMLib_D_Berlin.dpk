@@ -2,13 +2,13 @@ package GMLib_D_Berlin;
 
 {$R *.res}
 {$R '..\Resources\gmlibres.RES'}
-{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users} 
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
 {$ALIGN 8}
 {$ASSERTIONS ON}
 {$BOOLEVAL OFF}
-{$DEBUGINFO OFF} 
+{$DEBUGINFO OFF}
 {$EXTENDEDSYNTAX ON}
-{$IMPORTEDDATA ON} 
+{$IMPORTEDDATA ON}
 {$IOCHECKS ON}
 {$LOCALSYMBOLS ON}
 {$LONGSTRINGS ON}
@@ -31,8 +31,8 @@ package GMLib_D_Berlin;
 
 requires
   rtl,
-  xmlrtl,
-  dbrtl;
+  dbrtl,
+  xmlrtl;
 
 contains
   GMCircle in '..\src\GMCircle.pas',

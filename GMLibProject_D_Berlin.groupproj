@@ -1,9 +1,12 @@
 ﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
     <PropertyGroup>
-        <ProjectGuid>{1A24483C-7C18-4111-8430-35B96493B3C6}</ProjectGuid>
+        <ProjectGuid>{A641DF5D-8836-4D07-9A56-C36F9BCD8980}</ProjectGuid>
     </PropertyGroup>
     <ItemGroup>
         <Projects Include="dpk\GMLib_D_Berlin.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="dpk\GMLib_D_Berlin_FMX.dproj">
             <Dependencies/>
         </Projects>
         <Projects Include="dpk\GMLib_D_Berlin_VCL.dproj">
@@ -29,6 +32,15 @@
     <Target Name="GMLib_D_Berlin:Make">
         <MSBuild Projects="dpk\GMLib_D_Berlin.dproj" Targets="Make"/>
     </Target>
+    <Target Name="GMLib_D_Berlin_FMX">
+        <MSBuild Projects="dpk\GMLib_D_Berlin_FMX.dproj"/>
+    </Target>
+    <Target Name="GMLib_D_Berlin_FMX:Clean">
+        <MSBuild Projects="dpk\GMLib_D_Berlin_FMX.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GMLib_D_Berlin_FMX:Make">
+        <MSBuild Projects="dpk\GMLib_D_Berlin_FMX.dproj" Targets="Make"/>
+    </Target>
     <Target Name="GMLib_D_Berlin_VCL">
         <MSBuild Projects="dpk\GMLib_D_Berlin_VCL.dproj"/>
     </Target>
@@ -48,13 +60,13 @@
         <MSBuild Projects="dpk\GMLibEdit_D_Berlin.dproj" Targets="Make"/>
     </Target>
     <Target Name="Build">
-        <CallTarget Targets="GMLib_D_Berlin;GMLib_D_Berlin_VCL;GMLibEdit_D_Berlin"/>
+        <CallTarget Targets="GMLib_D_Berlin;GMLib_D_Berlin_FMX;GMLib_D_Berlin_VCL;GMLibEdit_D_Berlin"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="GMLib_D_Berlin:Clean;GMLib_D_Berlin_VCL:Clean;GMLibEdit_D_Berlin:Clean"/>
+        <CallTarget Targets="GMLib_D_Berlin:Clean;GMLib_D_Berlin_FMX:Clean;GMLib_D_Berlin_VCL:Clean;GMLibEdit_D_Berlin:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="GMLib_D_Berlin:Make;GMLib_D_Berlin_VCL:Make;GMLibEdit_D_Berlin:Make"/>
+        <CallTarget Targets="GMLib_D_Berlin:Make;GMLib_D_Berlin_FMX:Make;GMLib_D_Berlin_VCL:Make;GMLibEdit_D_Berlin:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>
