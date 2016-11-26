@@ -39,7 +39,7 @@ RemoteSymbols=0
 MinStackSize=16384
 MaxStackSize=1048576
 ImageBase=4194304
-ExeDescription=GoogleMaps Library v1.5.2 (Copyright © Xavier Martínez - cadetill)
+ExeDescription=GoogleMaps Library v1.5.3 (Copyright © Xavier Martínez - cadetill)
 [Directories]
 OutputDir=
 UnitOutputDir=..\lib\d6
