@@ -5,3 +5,4 @@
 *.bpi
 *.~*
 *test_RTTI*
+*.a
