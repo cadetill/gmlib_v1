@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-// *** Fred : modified by Fred 28/09/2014 : added KML layer features
-
 {
 GMMap unit
 
@@ -14,7 +10,7 @@ History:
 ver 1.4.1
   ES:
     error: TGMObjects -> corregido error en método IsMapActive (gracias Fred).
-  EN:
+  EN: 
     bug: TGMObjects -> bug fixed un method IsMapActive (thanks Fred).
 
 ver 1.3.2
@@ -3013,6 +3009,7 @@ begin
       Stream := TResourceStream.Create(HInstance, RES_MAPA_CODE, RT_RCDATA);
       List.LoadFromStream(Stream);
       Result := List.Text;
+      //List.SaveToFile('d:\mapa.html');
       Result := StringReplace(Result, C_API_KEY, FApiKey, []);
     finally
       if Assigned(Stream) then FreeAndNil(Stream);
