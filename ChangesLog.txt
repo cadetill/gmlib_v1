@@ -20,6 +20,8 @@ Requirements:
 
 CHANGE HISTORY
 ~~~~~~~~~~~~~~
+November 24, 2016
+	- Improvement: Compiled under Berlin 10.1 update 1 and 2.
 
 Septembre 23, 2015
  - Google Maps Library v1.5.3
