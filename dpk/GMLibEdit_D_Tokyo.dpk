@@ -29,7 +29,10 @@ package GMLibEdit_D_Tokyo;
 {$IMPLICITBUILD ON}
 
 requires
-  rtl;
+  rtl,
+  designide,
+  dbrtl,
+  GMLib_D_Tokyo;
 
 contains
   GMEditors in '..\src\GMEditors.pas',

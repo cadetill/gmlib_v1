@@ -125,6 +125,9 @@
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
         <DCCReference Include="rtl.dcp"/>
+        <DCCReference Include="designide.dcp"/>
+        <DCCReference Include="dbrtl.dcp"/>
+        <DCCReference Include="GMLib_D_Tokyo.dcp"/>
         <DCCReference Include="..\src\GMEditors.pas"/>
         <DCCReference Include="..\src\RegisterEditors.pas"/>
         <DCCReference Include="..\src\UAboutFrm.pas">
