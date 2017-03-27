@@ -1,11 +1,11 @@
 package GMLibEdit_D_Berlin;
 
 {$R *.res}
-{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users} 
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
 {$ALIGN 8}
 {$ASSERTIONS ON}
 {$BOOLEVAL OFF}
-{$DEBUGINFO OFF} 
+{$DEBUGINFO OFF}
 {$EXTENDEDSYNTAX ON}
 {$IMPORTEDDATA ON}
 {$IOCHECKS ON}
@@ -29,6 +29,14 @@ package GMLibEdit_D_Berlin;
 {$IMPLICITBUILD ON}
 
 requires
-  rtl;
+  rtl,
+  designide,
+  dbrtl,
+  GMLib_D_Berlin;
+
+contains
+  GMEditors in '..\src\GMEditors.pas',
+  RegisterEditors in '..\src\RegisterEditors.pas',
+  UAboutFrm in '..\src\UAboutFrm.pas' {AboutFrm};
 
 end.

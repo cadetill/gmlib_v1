@@ -1,4 +1,4 @@
-package GMLibEdit_D_Seattle10;
+package GMLibEdit_D_Tokyo;
 
 {$R *.res}
 {$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
@@ -29,10 +29,7 @@ package GMLibEdit_D_Seattle10;
 {$IMPLICITBUILD ON}
 
 requires
-  rtl,
-  designide,
-  dbrtl,
-  GMLib_D_Seattle10;
+  rtl;
 
 contains
   GMEditors in '..\src\GMEditors.pas',
