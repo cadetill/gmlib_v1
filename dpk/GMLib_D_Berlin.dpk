@@ -2,13 +2,13 @@ package GMLib_D_Berlin;
 
 {$R *.res}
 {$R '..\Resources\gmlibres.RES'}
-{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users} 
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
 {$ALIGN 8}
 {$ASSERTIONS ON}
 {$BOOLEVAL OFF}
-{$DEBUGINFO OFF} 
+{$DEBUGINFO OFF}
 {$EXTENDEDSYNTAX ON}
-{$IMPORTEDDATA ON} 
+{$IMPORTEDDATA ON}
 {$IOCHECKS ON}
 {$LOCALSYMBOLS ON}
 {$LONGSTRINGS ON}
@@ -26,13 +26,13 @@ package GMLib_D_Berlin;
 {$IMAGEBASE $400000}
 {$DEFINE DEBUG}
 {$ENDIF IMPLICITBUILDING}
-{$DESCRIPTION 'GoogleMaps Library v1.5.2 (Copyright © Xavier Martínez - cadetill)'}
+{$DESCRIPTION 'GoogleMaps Library v1.5.3 (Copyright © Xavier Martínez - cadetill)'}
 {$IMPLICITBUILD ON}
 
 requires
   rtl,
-  xmlrtl,
-  dbrtl;
+  dbrtl,
+  xmlrtl;
 
 contains
   GMCircle in '..\src\GMCircle.pas',

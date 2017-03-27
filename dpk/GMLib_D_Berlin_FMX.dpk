@@ -1,11 +1,11 @@
-package GMLib_DXE2_FMX;
+package GMLib_D_Berlin_FMX;
 
 {$R *.res}
 {$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
 {$ALIGN 8}
 {$ASSERTIONS ON}
 {$BOOLEVAL OFF}
-{$DEBUGINFO ON}
+{$DEBUGINFO OFF}
 {$EXTENDEDSYNTAX ON}
 {$IMPORTEDDATA ON}
 {$IOCHECKS ON}
@@ -25,28 +25,27 @@ package GMLib_DXE2_FMX;
 {$IMAGEBASE $400000}
 {$DEFINE DEBUG}
 {$ENDIF IMPLICITBUILDING}
-{$DESCRIPTION 'GoogleMaps Library v1.5.3 FMX (Copyright © Xavier Martínez - cadetill)'}
+{$DESCRIPTION 'GoogleMaps Library v1.5.2 FMX (Copyright © Xavier Martínez - cadetill)'}
 {$IMPLICITBUILD ON}
 
 requires
   rtl,
-  fmx,
   xmlrtl,
-  GMLib_DXE2;
+  dbrtl,
+  fmx,
+  GMLib_D_Berlin;
 
 contains
-  WebControlFMX in '..\src\FMX\WebControlFMX.pas',
-  GMFunctionsFMX in '..\src\FMX\GMFunctionsFMX.pas',
-  RegisterCompFMX in '..\src\FMX\RegisterCompFMX.pas',
-  GMMapFMX in '..\src\FMX\GMMapFMX.pas',
-  GMDirectionFMX in '..\src\FMX\GMDirectionFMX.pas',
-  GMMarkerFMX in '..\src\FMX\GMMarkerFMX.pas',
-  GMRectangleFMX in '..\src\FMX\GMRectangleFMX.pas',
   GMCircleFMX in '..\src\FMX\GMCircleFMX.pas',
+  GMDirectionFMX in '..\src\FMX\GMDirectionFMX.pas',
+  GMElevationFMX in '..\src\FMX\GMElevationFMX.pas',
+  GMFunctionsFMX in '..\src\FMX\GMFunctionsFMX.pas',
+  GMMapFMX in '..\src\FMX\GMMapFMX.pas',
+  GMMarkerFMX in '..\src\FMX\GMMarkerFMX.pas',
   GMPolygonFMX in '..\src\FMX\GMPolygonFMX.pas',
   GMPolylineFMX in '..\src\FMX\GMPolylineFMX.pas',
-  GMElevationFMX in '..\src\FMX\GMElevationFMX.pas';
+  GMRectangleFMX in '..\src\FMX\GMRectangleFMX.pas',
+  RegisterCompFMX in '..\src\FMX\RegisterCompFMX.pas',
+  WebControlFMX in '..\src\FMX\WebControlFMX.pas';
 
 end.
-
-

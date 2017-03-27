@@ -1,4 +1,4 @@
-package GMLib_D_Seattle10_VCL;
+package GMLib_D_Tokyo_VCL;
 
 {$R *.res}
 {$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
@@ -25,7 +25,7 @@ package GMLib_D_Seattle10_VCL;
 {$IMAGEBASE $400000}
 {$DEFINE DEBUG}
 {$ENDIF IMPLICITBUILDING}
-{$DESCRIPTION 'GoogleMaps Library v1.5.2 VCL (Copyright © Xavier Martínez - cadetill)'}
+{$DESCRIPTION 'GoogleMaps Library v1.5.3 VCL (Copyright © Xavier Martínez - cadetill)'}
 {$IMPLICITBUILD ON}
 
 requires
@@ -35,7 +35,7 @@ requires
   vclimg,
   vclie,
   dbrtl,
-  GMLib_D_Seattle10;
+  GMLib_D_Tokyo;
 
 contains
   GMCircleVCL in '..\src\VCL\GMCircleVCL.pas',

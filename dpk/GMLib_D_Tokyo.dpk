@@ -1,4 +1,4 @@
-package GMLib_D_Seattle10;
+package GMLib_D_Tokyo;
 
 {$R *.res}
 {$R '..\Resources\gmlibres.RES'}
@@ -26,13 +26,13 @@ package GMLib_D_Seattle10;
 {$IMAGEBASE $400000}
 {$DEFINE DEBUG}
 {$ENDIF IMPLICITBUILDING}
-{$DESCRIPTION 'GoogleMaps Library v1.5.2 (Copyright © Xavier Martínez - cadetill)'}
+{$DESCRIPTION 'GoogleMaps Library v1.5.3 (Copyright © Xavier Martínez - cadetill)'}
 {$IMPLICITBUILD ON}
 
 requires
   rtl,
-  dbrtl,
-  xmlrtl;
+  xmlrtl,
+  dbrtl;
 
 contains
   GMCircle in '..\src\GMCircle.pas',
