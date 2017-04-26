@@ -136,13 +136,13 @@ Copyright (©) 2012, by Xavier Martinez (cadetill)
   The GMPolyline unit includes the base classes needed to show polylines and polygons on Google Map map using the component TGMMap.
 
   @author Xavier Martinez (cadetill)
-  @version 1.5.3
+  @version 1.5.4
 -------------------------------------------------------------------------------}
 {=------------------------------------------------------------------------------
   La unit GMPolyline contiene las clases bases necesarias para mostrar polilineas y polígonos en un mapa de Google Maps mediante el componente TGMMap.
 
   @author Xavier Martinez (cadetill)
-  @version 1.5.3
+  @version 1.5.4
 -------------------------------------------------------------------------------}
 unit GMPolyline;
 

@@ -41,13 +41,13 @@ Copyright (©) 2011, by Xavier Martinez (cadetill)
   Unit to register the components that no depend of any framework.
 
   @author Xavier Martinez (cadetill)
-  @version 1.5.3
+  @version 1.5.4
 -------------------------------------------------------------------------------}
 {=------------------------------------------------------------------------------
   Unidad para registrar los componentes que no dependen de ningún framework.
 
   @author Xavier Martinez (cadetill)
-  @version 1.5.3
+  @version 1.5.4
 -------------------------------------------------------------------------------}
 unit RegisterComp;
 

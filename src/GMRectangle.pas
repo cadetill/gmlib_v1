@@ -75,13 +75,13 @@ Copyright (©) 2012, by Xavier Martinez (cadetill)
   The GMRectangle unit includes the base classes needed to show rectangles on Google Map map using the component TGMMap.
 
   @author Xavier Martinez (cadetill)
-  @version 1.5.3
+  @version 1.5.4
 -------------------------------------------------------------------------------}
 {=------------------------------------------------------------------------------
   La unit GMRectangle contiene las clases bases necesarias para mostrar rectángulos en un mapa de Google Maps mediante el componente TGMMap
 
   @author Xavier Martinez (cadetill)
-  @version 1.5.3
+  @version 1.5.4
 -------------------------------------------------------------------------------}
 unit GMRectangle;
 
