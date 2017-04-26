@@ -20,6 +20,9 @@ Requirements:
 
 CHANGE HISTORY
 ~~~~~~~~~~~~~~
+April 26, 2017
+	- Up to date version to be compatible with 3.28 version
+
 November 24, 2016
 	- Improvement: Compiled under Berlin 10.1 update 1 and 2.
 

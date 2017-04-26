@@ -12,6 +12,9 @@
         <Projects Include="dpk\GMLibEdit_D_Tokyo.dproj">
             <Dependencies/>
         </Projects>
+        <Projects Include="Demos\MegaDemo\MegaDemo.dproj">
+            <Dependencies/>
+        </Projects>
     </ItemGroup>
     <ProjectExtensions>
         <Borland.Personality>Default.Personality.12</Borland.Personality>
@@ -47,14 +50,23 @@
     <Target Name="GMLibEdit_D_Tokyo:Make">
         <MSBuild Projects="dpk\GMLibEdit_D_Tokyo.dproj" Targets="Make"/>
     </Target>
+    <Target Name="MegaDemo">
+        <MSBuild Projects="Demos\MegaDemo\MegaDemo.dproj"/>
+    </Target>
+    <Target Name="MegaDemo:Clean">
+        <MSBuild Projects="Demos\MegaDemo\MegaDemo.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MegaDemo:Make">
+        <MSBuild Projects="Demos\MegaDemo\MegaDemo.dproj" Targets="Make"/>
+    </Target>
     <Target Name="Build">
-        <CallTarget Targets="GMLib_D_Tokyo;GMLib_D_Tokyo_VCL;GMLibEdit_D_Tokyo"/>
+        <CallTarget Targets="GMLib_D_Tokyo;GMLib_D_Tokyo_VCL;GMLibEdit_D_Tokyo;MegaDemo"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="GMLib_D_Tokyo:Clean;GMLib_D_Tokyo_VCL:Clean;GMLibEdit_D_Tokyo:Clean"/>
+        <CallTarget Targets="GMLib_D_Tokyo:Clean;GMLib_D_Tokyo_VCL:Clean;GMLibEdit_D_Tokyo:Clean;MegaDemo:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="GMLib_D_Tokyo:Make;GMLib_D_Tokyo_VCL:Make;GMLibEdit_D_Tokyo:Make"/>
+        <CallTarget Targets="GMLib_D_Tokyo:Make;GMLib_D_Tokyo_VCL:Make;GMLibEdit_D_Tokyo:Make;MegaDemo:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>

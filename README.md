@@ -35,8 +35,11 @@ Compiled in:
 <li>RAD Studio XE6</li>
 <li>RAD Studio XE7</li>
 <li>RAD Studio XE8</li>
-<li>RAD Studio Seattle 10</li>
+<li>RAD Studio 10.0 Seattle</li>
+<li>RAD Studio 10.1 Berlin</li>
+<li>RAD Studio 10.2 Tokyo</li>
 </ul>
+
 Compatible with VCL framework.
 
 For more information visit my blog at www.cadetill.com/gmlib/ (spanish) or at www.cadetill.com/gmlib_en/ (english)

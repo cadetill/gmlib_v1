@@ -1,9 +1,13 @@
 ﻿[Modules]
-Module0=D:\Documents\Dropbox\Programacio\GoogleMaps\Components\gmlib_v1\src\GMGeoCode.pas
-Module1=default.htm
-Module2=D:\Documents\Dropbox\Programacio\GoogleMaps\Components\gmlib_v1\src\GMFunctions.pas
-Count=3
+Module0=D:\Documents\Dropbox\Programacio\GoogleMaps\Components\gmlib_v1\dpk\GMLib_D_Seattle10_VCL.dproj
+Module1=D:\Documents\Dropbox\Programacio\GoogleMaps\Components\gmlib_v1\src\GMGeoCode.pas
+Module2=default.htm
+Module3=D:\Documents\Dropbox\Programacio\GoogleMaps\Components\gmlib_v1\src\GMFunctions.pas
+Count=4
 EditWindowCount=1
+
+[D:\Documents\Dropbox\Programacio\GoogleMaps\Components\gmlib_v1\dpk\GMLib_D_Seattle10_VCL.dproj]
+ModuleType=TBaseProject
 
 [D:\Documents\Dropbox\Programacio\GoogleMaps\Components\gmlib_v1\src\GMGeoCode.pas]
 ModuleType=TSourceModule
@@ -19,11 +23,12 @@ FormState=0
 FormOnTop=0
 
 [EditWindow0]
-ViewCount=3
-CurrentEditView=D:\Documents\Dropbox\Programacio\GoogleMaps\Components\gmlib_v1\src\GMGeoCode.pas
+ViewCount=4
+CurrentEditView=D:\Documents\Dropbox\Programacio\GoogleMaps\Components\gmlib_v1\dpk\GMLib_D_Seattle10_VCL.dpk
 View0=0
 View1=1
 View2=2
+View3=3
 PercentageSizes=1
 Create=1
 Visible=1
@@ -78,6 +83,17 @@ LeftCol=1
 Elisions=
 Bookmarks=
 EditViewName=D:\Documents\Dropbox\Programacio\GoogleMaps\Components\gmlib_v1\src\GMGeoCode.pas
+
+[View3]
+CustomEditViewType=TEditView
+Module=D:\Documents\Dropbox\Programacio\GoogleMaps\Components\gmlib_v1\dpk\GMLib_D_Seattle10_VCL.dpk
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=D:\Documents\Dropbox\Programacio\GoogleMaps\Components\gmlib_v1\dpk\GMLib_D_Seattle10_VCL.dpk
 
 [Watches]
 Count=0
