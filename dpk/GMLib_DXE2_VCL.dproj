@@ -73,11 +73,11 @@
 			<DCC_UnitSearchPath>..\lib\DXE2_64\VCL;..\lib\DXE2_64;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
         <VerInfo_MajorVer>0</VerInfo_MajorVer>
 			<DCC_Namespace>Winapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;$(DCC_Namespace)</DCC_Namespace>
-        <DCC_Description>GoogleMaps Library v1.5.3 VCL (Copyright © Xavier Martínez - cadetill)</DCC_Description>
+        <DCC_Description>GoogleMaps Library v1.5.4 VCL (Copyright © Xavier Martínez - cadetill)</DCC_Description>
 			<DCC_DcuOutput>..\lib\DXE2_64\VCL</DCC_DcuOutput>
 			<DCC_DcpOutput>..\lib\DXE2_64\VCL</DCC_DcpOutput>
 			<VerInfo_Locale>1033</VerInfo_Locale>
-        <VerInfo_Keys>CompanyName=www.cadetill.com;FileDescription=;FileVersion=0.1.5.3;InternalName=GMLib;LegalCopyright=Copyright © Xavier Martínez - cadetill;LegalTrademarks=;OriginalFilename=;ProductName=GoogleMaps Library;ProductVersion=0.1.5.3;Comments=</VerInfo_Keys>
+        <VerInfo_Keys>CompanyName=www.cadetill.com;FileDescription=;FileVersion=0.1.5.4;InternalName=GMLib;LegalCopyright=Copyright © Xavier Martínez - cadetill;LegalTrademarks=;OriginalFilename=;ProductName=GoogleMaps Library;ProductVersion=0.1.5.4;Comments=</VerInfo_Keys>
 			<DCC_UsePackage>vcl;vclie;vclimg;GMLib_DXE2;$(DCC_UsePackage)</DCC_UsePackage>
 		</PropertyGroup>
 		<PropertyGroup Condition="'$(Base_Win32)'!=''">
@@ -88,12 +88,12 @@
 			<DCC_UnitSearchPath>..\lib\dxe2\VCL;..\lib\dxe2;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
         <VerInfo_MajorVer>0</VerInfo_MajorVer>
 			<DCC_Namespace>Winapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;$(DCC_Namespace)</DCC_Namespace>
-        <DCC_Description>GoogleMaps Library v1.5.3 VCL (Copyright © Xavier Martínez - cadetill)</DCC_Description>
+        <DCC_Description>GoogleMaps Library v1.5.4 VCL (Copyright © Xavier Martínez - cadetill)</DCC_Description>
 			<DCC_ObjOutput>..\lib\CXE2\VCL</DCC_ObjOutput>
 			<DCC_DcpOutput>..\lib\dxe2\VCL</DCC_DcpOutput>
 			<DCC_HppOutput>..\lib\CXE2\VCL</DCC_HppOutput>
 			<DCC_DcuOutput>..\lib\dxe2\VCL</DCC_DcuOutput>
-        <VerInfo_Keys>CompanyName=www.cadetill.com;FileDescription=;FileVersion=0.1.5.3;InternalName=GMLib;LegalCopyright=Copyright © Xavier Martínez - cadetill;LegalTrademarks=;OriginalFilename=;ProductName=GoogleMaps Library;ProductVersion=0.1.5.3;Comments=</VerInfo_Keys>
+        <VerInfo_Keys>CompanyName=www.cadetill.com;FileDescription=;FileVersion=0.1.5.4;InternalName=GMLib;LegalCopyright=Copyright © Xavier Martínez - cadetill;LegalTrademarks=;OriginalFilename=;ProductName=GoogleMaps Library;ProductVersion=0.1.5.4;Comments=</VerInfo_Keys>
 			<DCC_UsePackage>vcl;vclie;vclimg;DCEF_XE2;GMLib_DXE2;$(DCC_UsePackage)</DCC_UsePackage>
 			<VerInfo_Locale>1033</VerInfo_Locale>
 		</PropertyGroup>
@@ -133,7 +133,7 @@
 		<PropertyGroup Condition="'$(Cfg_2_Win32)'!=''">
 			<VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <VerInfo_MajorVer>0</VerInfo_MajorVer>
-        <VerInfo_Build>3</VerInfo_Build>
+        <VerInfo_Build>4</VerInfo_Build>
         <VerInfo_Release>5</VerInfo_Release>
 			<VerInfo_Locale>1033</VerInfo_Locale>
 		</PropertyGroup>

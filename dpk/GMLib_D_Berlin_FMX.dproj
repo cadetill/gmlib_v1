@@ -73,7 +73,7 @@
     <PropertyGroup Condition="'$(Base)'!=''">
         <DCC_K>false</DCC_K>
         <SanitizedProjectName>GMLib_D_Berlin_FMX</SanitizedProjectName>
-        <DCC_Description>GoogleMaps Library v1.5.2 FMX (Copyright © Xavier Martínez - cadetill)</DCC_Description>
+        <DCC_Description>GoogleMaps Library v1.5.4 FMX (Copyright © Xavier Martínez - cadetill)</DCC_Description>
         <DCC_DcuOutput>..\lib\berlin</DCC_DcuOutput>
         <DCC_F>false</DCC_F>
         <GenPackage>true</GenPackage>
@@ -82,7 +82,7 @@
         <DCC_ImageBase>00400000</DCC_ImageBase>
         <DCC_Namespace>System;Xml;Data;Datasnap;Web;Soap;REST.Authenticator.OAuth.WebForm;$(DCC_Namespace)</DCC_Namespace>
         <DCC_E>false</DCC_E>
-        <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.0;Comments=;CFBundleName=</VerInfo_Keys>
+        <VerInfo_Keys>CompanyName=www.cadetill.com;FileDescription=;FileVersion=0.1.5.4;InternalName=GMLib;LegalCopyright=Copyright © Xavier Martínez - cadetill;LegalTrademarks=;OriginalFilename=;ProductName=GoogleMaps Library;ProductVersion=0.1.5.4;Comments=</VerInfo_Keys>
         <VerInfo_Locale>1046</VerInfo_Locale>
         <DCC_UnitSearchPath>..\lib\berlin;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
         <DCC_S>false</DCC_S>
@@ -91,7 +91,7 @@
         <EnabledSysJars>android-support-v4.dex.jar;cloud-messaging.dex.jar;fmx.dex.jar;google-analytics-v2.dex.jar;google-play-billing.dex.jar;google-play-licensing.dex.jar;google-play-services.dex.jar</EnabledSysJars>
         <DCC_UsePackage>xmlrtl;rtl;dbrtl;fmx;$(DCC_UsePackage)</DCC_UsePackage>
         <BT_BuildType>Debug</BT_BuildType>
-        <VerInfo_Keys>package=com.embarcadero.$(MSBuildProjectName);label=$(MSBuildProjectName);versionCode=1;versionName=1.0.0;persistent=False;restoreAnyVersion=False;installLocation=auto;largeHeap=False;theme=TitleBar;hardwareAccelerated=true;apiKey=</VerInfo_Keys>
+        <VerInfo_Keys>CompanyName=www.cadetill.com;FileDescription=;FileVersion=0.1.5.4;InternalName=GMLib;LegalCopyright=Copyright © Xavier Martínez - cadetill;LegalTrademarks=;OriginalFilename=;ProductName=GoogleMaps Library;ProductVersion=0.1.5.4;Comments=</VerInfo_Keys>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base_iOSDevice32)'!=''">
         <DCC_UsePackage>xmlrtl;rtl;dbrtl;fmx;$(DCC_UsePackage)</DCC_UsePackage>
@@ -111,7 +111,7 @@
         <DCC_UsePackage>xmlrtl;rtl;dbrtl;fmx;GMLib_D_Berlin;$(DCC_UsePackage)</DCC_UsePackage>
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <DCC_Namespace>Winapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;$(DCC_Namespace)</DCC_Namespace>
-        <VerInfo_Keys>CompanyName=;FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductVersion=1.0.0.0;Comments=;ProgramID=com.embarcadero.$(ModuleName);FileDescription=$(ModuleName);ProductName=$(ModuleName)</VerInfo_Keys>
+        <VerInfo_Keys>CompanyName=www.cadetill.com;FileDescription=;FileVersion=0.1.5.4;InternalName=GMLib;LegalCopyright=Copyright © Xavier Martínez - cadetill;LegalTrademarks=;OriginalFilename=;ProductName=GoogleMaps Library;ProductVersion=0.1.5.4;Comments=</VerInfo_Keys>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base_Win64)'!=''">
         <DCC_UsePackage>xmlrtl;rtl;dbrtl;fmx;$(DCC_UsePackage)</DCC_UsePackage>
@@ -132,7 +132,7 @@
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_2_Win32)'!=''">
         <VerInfo_Locale>1033</VerInfo_Locale>
-        <VerInfo_Keys>CompanyName=;FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductVersion=1.0.0.0;Comments=;ProgramID=com.embarcadero.$(ModuleName);FileDescription=$(ModuleName);ProductName=$(ModuleName)</VerInfo_Keys>
+        <VerInfo_Keys>CompanyName=www.cadetill.com;FileDescription=;FileVersion=0.1.5.4;InternalName=GMLib;LegalCopyright=Copyright © Xavier Martínez - cadetill;LegalTrademarks=;OriginalFilename=;ProductName=GoogleMaps Library;ProductVersion=0.1.5.4;Comments=</VerInfo_Keys>
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
     </PropertyGroup>
     <ItemGroup>

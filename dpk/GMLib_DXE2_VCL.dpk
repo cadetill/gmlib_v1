@@ -25,7 +25,7 @@ package GMLib_DXE2_VCL;
 {$IMAGEBASE $400000}
 {$DEFINE DEBUG}
 {$ENDIF IMPLICITBUILDING}
-{$DESCRIPTION 'GoogleMaps Library v1.5.3 VCL (Copyright © Xavier Martínez - cadetill)'}
+{$DESCRIPTION 'GoogleMaps Library v1.5.4 VCL (Copyright © Xavier Martínez - cadetill)'}
 {$IMPLICITBUILD ON}
 
 requires

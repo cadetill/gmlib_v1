@@ -5,9 +5,9 @@
     <Transaction>2017/03/27 23:27:25.000.017,=D:\Documents\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\GMClasses.pas</Transaction>
     <Transaction>2017/03/27 23:27:25.000.027,=D:\Documents\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\GMConstants.pas</Transaction>
     <Transaction>2017/03/27 23:27:25.000.005,=D:\Documents\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\GMCircle.pas</Transaction>
-    <Transaction>2017/03/27 23:27:33.000.887,=D:\Documents\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\RegisterComp.pas</Transaction>
+    <Transaction>2017/03/27 23:27:33.000.878,=D:\Documents\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\Lang.pas</Transaction>
     <Transaction>2017/03/27 23:27:33.000.726,=D:\Documents\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\GMFunctions.pas</Transaction>
-    <Transaction>2017/03/27 23:27:33.000.899,=D:\Documents\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\WebControl.pas</Transaction>
+    <Transaction>2017/03/27 23:27:33.000.783,=D:\Documents\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\GMLinkedComponents.pas</Transaction>
     <Transaction>2017/03/27 23:27:33.000.770,=D:\Documents\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\GMInfoWindow.pas</Transaction>
     <Transaction>2017/03/27 23:27:33.000.739,=D:\Documents\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\GMGeoCode.pas</Transaction>
     <Transaction>2017/03/27 23:27:33.000.867,=D:\Documents\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\GMRectangle.pas</Transaction>
@@ -18,10 +18,10 @@
     <Transaction>2017/03/27 23:27:33.000.708,=D:\Documents\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\GMEditors.pas</Transaction>
     <Transaction>2017/03/27 23:27:33.000.749,=D:\Documents\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\GMGroundOverlay.pas</Transaction>
     <Transaction>2017/03/27 23:27:33.000.852,=D:\Documents\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\GMPolyline.pas</Transaction>
-    <Transaction>2017/03/27 23:27:33.000.878,=D:\Documents\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\Lang.pas</Transaction>
-    <Transaction>2017/03/27 23:27:33.000.783,=D:\Documents\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\GMLinkedComponents.pas</Transaction>
+    <Transaction>2017/03/27 23:27:33.000.899,=D:\Documents\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\WebControl.pas</Transaction>
+    <Transaction>2017/03/27 23:27:33.000.887,=D:\Documents\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\RegisterComp.pas</Transaction>
     <Transaction>2017/03/27 23:27:33.000.817,=D:\Documents\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\GMMap.pas</Transaction>
-    <Transaction>2017/03/27 23:28:50.000.501,D:\Documents\Embarcadero\Studio\Projects\Package1.dproj=D:\Documents\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\dpk\GMLib_D_Tokyo.dproj</Transaction>
+    <Transaction>2017/03/27 23:28:50.000.501,D:\Documents\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\dpk\GMLib_D_Tokyo.dproj=D:\Documents\Embarcadero\Studio\Projects\Package1.dproj</Transaction>
     <Transaction>2017/03/27 23:29:46.000.149,D:\Documents\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\GMEditors.pas=</Transaction>
     <Transaction>2017/03/27 23:31:14.000.980,=dbrtl.dcp</Transaction>
     <Transaction>2017/03/27 23:31:14.000.967,=xmlrtl.dcp</Transaction>

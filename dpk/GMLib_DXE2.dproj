@@ -74,9 +74,9 @@
         <VerInfo_Release>5</VerInfo_Release>
         <VerInfo_MinorVer>1</VerInfo_MinorVer>
 			<DCC_UnitSearchPath>..\lib\DXE2_64;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
-        <DCC_Description>GoogleMaps Library v1.5.3 (Copyright © Xavier Martínez - cadetill)</DCC_Description>
+        <DCC_Description>GoogleMaps Library v1.5.4 (Copyright © Xavier Martínez - cadetill)</DCC_Description>
         <VerInfo_MajorVer>0</VerInfo_MajorVer>
-        <VerInfo_Keys>CompanyName=www.cadetill.com;FileDescription=;FileVersion=0.1.5.3;InternalName=GMLib;LegalCopyright=Copyright © Xavier Martínez - cadetill;LegalTrademarks=;OriginalFilename=;ProductName=GoogleMaps Library;ProductVersion=0.1.5.3;Comments=</VerInfo_Keys>
+        <VerInfo_Keys>CompanyName=www.cadetill.com;FileDescription=;FileVersion=0.1.5.4;InternalName=GMLib;LegalCopyright=Copyright © Xavier Martínez - cadetill;LegalTrademarks=;OriginalFilename=;ProductName=GoogleMaps Library;ProductVersion=0.1.5.4;Comments=</VerInfo_Keys>
 			<VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
 			<DCC_Namespace>Winapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;$(DCC_Namespace)</DCC_Namespace>
 			<DCC_DcuOutput>..\lib\DXE2_64</DCC_DcuOutput>
@@ -91,13 +91,13 @@
 			<DCC_ObjOutput>..\lib\cxe2</DCC_ObjOutput>
 			<DCC_HppOutput>..\lib\cxe2</DCC_HppOutput>
 			<DCC_UnitSearchPath>..\lib\dxe2;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
-        <DCC_Description>GoogleMaps Library v1.5.3 (Copyright © Xavier Martínez - cadetill)</DCC_Description>
+        <DCC_Description>GoogleMaps Library v1.5.4 (Copyright © Xavier Martínez - cadetill)</DCC_Description>
         <VerInfo_MajorVer>0</VerInfo_MajorVer>
 			<DCC_DcuOutput>..\lib\dxe2</DCC_DcuOutput>
 			<DCC_DcpOutput>..\lib\dxe2</DCC_DcpOutput>
 			<VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
 			<DCC_Namespace>Winapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;$(DCC_Namespace)</DCC_Namespace>
-        <VerInfo_Keys>CompanyName=www.cadetill.com;FileDescription=;FileVersion=0.1.5.3;InternalName=GMLib;LegalCopyright=Copyright © Xavier Martínez - cadetill;LegalTrademarks=;OriginalFilename=;ProductName=GoogleMaps Library;ProductVersion=0.1.5.3;Comments=</VerInfo_Keys>
+        <VerInfo_Keys>CompanyName=www.cadetill.com;FileDescription=;FileVersion=0.1.5.4;InternalName=GMLib;LegalCopyright=Copyright © Xavier Martínez - cadetill;LegalTrademarks=;OriginalFilename=;ProductName=GoogleMaps Library;ProductVersion=0.1.5.4;Comments=</VerInfo_Keys>
 			<VerInfo_Locale>1033</VerInfo_Locale>
 			<DCC_UsePackage>vcl;vclie;vclimg;DCEF_XE2;$(DCC_UsePackage)</DCC_UsePackage>
 		</PropertyGroup>
@@ -109,11 +109,11 @@
 			<DCC_RemoteDebug>true</DCC_RemoteDebug>
 		</PropertyGroup>
 		<PropertyGroup Condition="'$(Cfg_1_Win64)'!=''">
-        <VerInfo_Keys>CompanyName=www.cadetill.com;FileDescription=;FileVersion=0.1.5.3;InternalName=GMLib;LegalCopyright=Copyright © Xavier Martínez - cadetill;LegalTrademarks=;OriginalFilename=;ProductName=GoogleMaps Library;ProductVersion=0.1.5.3;Comments=</VerInfo_Keys>
-        <DCC_Description>GoogleMaps Library v1.5.3 (Copyright © Xavier Martínez - cadetill)</DCC_Description>
+        <VerInfo_Keys>CompanyName=www.cadetill.com;FileDescription=;FileVersion=0.1.5.4;InternalName=GMLib;LegalCopyright=Copyright © Xavier Martínez - cadetill;LegalTrademarks=;OriginalFilename=;ProductName=GoogleMaps Library;ProductVersion=0.1.5.4;Comments=</VerInfo_Keys>
+        <DCC_Description>GoogleMaps Library v1.5.4 (Copyright © Xavier Martínez - cadetill)</DCC_Description>
 			<DCC_DcuOutput>..\lib\dxe2_64</DCC_DcuOutput>
 			<DCC_DcpOutput>..\lib\dxe2_64</DCC_DcpOutput>
-        <VerInfo_Build>3</VerInfo_Build>
+        <VerInfo_Build>4</VerInfo_Build>
         <VerInfo_MajorVer>0</VerInfo_MajorVer>
         <VerInfo_Release>5</VerInfo_Release>
 			<VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
@@ -135,14 +135,14 @@
 		<PropertyGroup Condition="'$(Cfg_2_Win64)'!=''">
 			<VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <VerInfo_MajorVer>0</VerInfo_MajorVer>
-        <VerInfo_Build>3</VerInfo_Build>
+        <VerInfo_Build>4</VerInfo_Build>
         <VerInfo_Release>5</VerInfo_Release>
 			<VerInfo_Locale>1033</VerInfo_Locale>
 		</PropertyGroup>
 		<PropertyGroup Condition="'$(Cfg_2_Win32)'!=''">
 			<VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <VerInfo_MajorVer>0</VerInfo_MajorVer>
-        <VerInfo_Build>3</VerInfo_Build>
+        <VerInfo_Build>4</VerInfo_Build>
         <VerInfo_Release>5</VerInfo_Release>
 			<VerInfo_Locale>1033</VerInfo_Locale>
 		</PropertyGroup>
@@ -199,10 +199,10 @@
 					<VersionInfo>
 						<VersionInfo Name="IncludeVerInfo">True</VersionInfo>
 						<VersionInfo Name="AutoIncBuild">False</VersionInfo>
-						<VersionInfo Name="MajorVer">1</VersionInfo>
-						<VersionInfo Name="MinorVer">0</VersionInfo>
-						<VersionInfo Name="Release">0</VersionInfo>
-						<VersionInfo Name="Build">0</VersionInfo>
+						<VersionInfo Name="MajorVer">0</VersionInfo>
+						<VersionInfo Name="MinorVer">1</VersionInfo>
+						<VersionInfo Name="Release">5</VersionInfo>
+						<VersionInfo Name="Build">4</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">False</VersionInfo>
@@ -212,15 +212,15 @@
 						<VersionInfo Name="CodePage">1252</VersionInfo>
 					</VersionInfo>
 					<VersionInfoKeys>
-						<VersionInfoKeys Name="CompanyName"/>
+						<VersionInfoKeys Name="CompanyName">www.cadetill.com</VersionInfoKeys>
 						<VersionInfoKeys Name="FileDescription"/>
-						<VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys>
-						<VersionInfoKeys Name="InternalName"/>
-						<VersionInfoKeys Name="LegalCopyright"/>
+						<VersionInfoKeys Name="FileVersion">0.1.5.4</VersionInfoKeys>
+						<VersionInfoKeys Name="InternalName">GMLib</VersionInfoKeys>
+						<VersionInfoKeys Name="LegalCopyright">Copyright © Xavier Martínez - cadetill</VersionInfoKeys>
 						<VersionInfoKeys Name="LegalTrademarks"/>
 						<VersionInfoKeys Name="OriginalFilename"/>
-						<VersionInfoKeys Name="ProductName"/>
-						<VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+						<VersionInfoKeys Name="ProductName">GoogleMaps Library</VersionInfoKeys>
+						<VersionInfoKeys Name="ProductVersion">0.1.5.4</VersionInfoKeys>
 						<VersionInfoKeys Name="Comments"/>
 					</VersionInfoKeys>
 					<Excluded_Packages>

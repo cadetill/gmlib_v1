@@ -25,7 +25,7 @@
 			<DCC_DependencyCheckOutputName>C:\Users\Public\Documents\RAD Studio\7.0\Bpl\GMLib_D2010.bpl</DCC_DependencyCheckOutputName>
 			<DesignOnlyPackage>false</DesignOnlyPackage>
 			<DCC_UnitAlias>WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;$(DCC_UnitAlias)</DCC_UnitAlias>
-        <DCC_Description>GoogleMaps Library v1.5.3 (Copyright © Xavier Martínez - cadetill)</DCC_Description>
+        <DCC_Description>GoogleMaps Library v1.5.4 (Copyright © Xavier Martínez - cadetill)</DCC_Description>
 			<DCC_DcpOutput>..\lib\D2010</DCC_DcpOutput>
 			<GenDll>true</GenDll>
 			<DCC_DcuOutput>..\lib\D2010</DCC_DcuOutput>
@@ -120,7 +120,7 @@
 						<VersionInfo Name="MajorVer">0</VersionInfo>
 						<VersionInfo Name="MinorVer">1</VersionInfo>
 						<VersionInfo Name="Release">5</VersionInfo>
-						<VersionInfo Name="Build">3</VersionInfo>
+						<VersionInfo Name="Build">4</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">False</VersionInfo>
@@ -132,13 +132,13 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName">www.cadetill.com</VersionInfoKeys>
 						<VersionInfoKeys Name="FileDescription"/>
-						<VersionInfoKeys Name="FileVersion">0.1.5.3</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">0.1.5.4</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName">GMLib</VersionInfoKeys>
 						<VersionInfoKeys Name="LegalCopyright">Copyright © Xavier Martínez - cadetill</VersionInfoKeys>
 						<VersionInfoKeys Name="LegalTrademarks"/>
 						<VersionInfoKeys Name="OriginalFilename"/>
 						<VersionInfoKeys Name="ProductName">GoogleMaps Library</VersionInfoKeys>
-						<VersionInfoKeys Name="ProductVersion">0.1.5.3</VersionInfoKeys>
+						<VersionInfoKeys Name="ProductVersion">0.1.5.4</VersionInfoKeys>
 						<VersionInfoKeys Name="Comments"/>
 					</VersionInfoKeys>
 					<Excluded_Packages>
