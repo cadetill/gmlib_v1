@@ -294,8 +294,8 @@ procedure TGMMap.BeforeNavigate2(ASender: TObject; const pDisp: IDispatch;
 begin
   if Assigned(OldBeforeNavigate2) then OldBeforeNavigate2(ASender, pDisp, URL, Flags, TargetFrameName, PostData, Headers, Cancel);
 
-  CurDispatch := nil;
-  FDocLoaded := False;
+  //CurDispatch := nil;
+  //FDocLoaded := False;
 end;
 
 procedure TGMMap.BrowserEventsControl;
