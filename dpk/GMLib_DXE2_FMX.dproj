@@ -51,11 +51,11 @@
         <VerInfo_Release>5</VerInfo_Release>
         <VerInfo_MajorVer>0</VerInfo_MajorVer>
         <VerInfo_MinorVer>1</VerInfo_MinorVer>
-        <DCC_Description>GoogleMaps Library v1.5.4 FMX (Copyright © Xavier Martínez - cadetill)</DCC_Description>
+        <DCC_Description>GoogleMaps Library v1.5.5 FMX (Copyright © Xavier Martínez - cadetill)</DCC_Description>
 			<DCC_Namespace>Winapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;$(DCC_Namespace)</DCC_Namespace>
 			<VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
 			<VerInfo_Locale>1033</VerInfo_Locale>
-        <VerInfo_Keys>CompanyName=www.cadetill.com;FileDescription=;FileVersion=0.1.5.4;InternalName=GMLib;LegalCopyright=Copyright © Xavier Martínez - cadetill;LegalTrademarks=;OriginalFilename=;ProductName=GoogleMaps Library;ProductVersion=0.1.5.4;Comments=</VerInfo_Keys>
+        <VerInfo_Keys>CompanyName=www.cadetill.com;FileDescription=;FileVersion=0.1.5.5;InternalName=GMLib;LegalCopyright=Copyright © Xavier Martínez - cadetill;LegalTrademarks=;OriginalFilename=;ProductName=GoogleMaps Library;ProductVersion=0.1.5.5;Comments=</VerInfo_Keys>
 			<DCC_UsePackage>GMLib_DXE2;$(DCC_UsePackage)</DCC_UsePackage>
 		</PropertyGroup>
 		<PropertyGroup Condition="'$(Base_Win32)'!=''">
@@ -63,14 +63,14 @@
         <VerInfo_MinorVer>1</VerInfo_MinorVer>
 			<DCC_BpiOutput>..\lib\CXE2\FMX</DCC_BpiOutput>
         <VerInfo_MajorVer>0</VerInfo_MajorVer>
-        <DCC_Description>GoogleMaps Library v1.5.4 FMX (Copyright © Xavier Martínez - cadetill)</DCC_Description>
+        <DCC_Description>GoogleMaps Library v1.5.5 FMX (Copyright © Xavier Martínez - cadetill)</DCC_Description>
 			<DCC_ObjOutput>..\lib\CXE2\FMX</DCC_ObjOutput>
 			<DCC_HppOutput>..\lib\CXE2\FMX</DCC_HppOutput>
 			<DCC_UsePackage>DCEF_XE2;GMLib_DXE2;$(DCC_UsePackage)</DCC_UsePackage>
 			<DCC_UnitSearchPath>..\lib\dxe2\FMX;..\lib\dxe2;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
 			<VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
 			<DCC_Namespace>Winapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;$(DCC_Namespace)</DCC_Namespace>
-        <VerInfo_Keys>CompanyName=www.cadetill.com;FileDescription=;FileVersion=0.1.5.4;InternalName=GMLib;LegalCopyright=Copyright © Xavier Martínez - cadetill;LegalTrademarks=;OriginalFilename=;ProductName=GoogleMaps Library;ProductVersion=0.1.5.4;Comments=</VerInfo_Keys>
+        <VerInfo_Keys>CompanyName=www.cadetill.com;FileDescription=;FileVersion=0.1.5.5;InternalName=GMLib;LegalCopyright=Copyright © Xavier Martínez - cadetill;LegalTrademarks=;OriginalFilename=;ProductName=GoogleMaps Library;ProductVersion=0.1.5.5;Comments=</VerInfo_Keys>
 			<DCC_DcpOutput>..\lib\dxe2\FMX</DCC_DcpOutput>
 			<DCC_DcuOutput>..\lib\dxe2\FMX</DCC_DcuOutput>
 			<VerInfo_Locale>1033</VerInfo_Locale>

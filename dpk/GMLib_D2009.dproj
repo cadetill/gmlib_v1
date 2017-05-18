@@ -26,7 +26,7 @@
 			<DesignOnlyPackage>false</DesignOnlyPackage>
 			<DCC_Platform>x86</DCC_Platform>
 			<DCC_UnitAlias>WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;$(DCC_UnitAlias)</DCC_UnitAlias>
-        <DCC_Description>GoogleMaps Library v1.5.4 (Copyright © Xavier Martínez - cadetill)</DCC_Description>
+        <DCC_Description>GoogleMaps Library v1.5.5 (Copyright © Xavier Martínez - cadetill)</DCC_Description>
 			<DCC_UnitSearchPath>..\lib\D2009;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
 			<GenPackage>true</GenPackage>
 			<DCC_S>false</DCC_S>
@@ -127,7 +127,7 @@
 						<VersionInfo Name="MajorVer">0</VersionInfo>
 						<VersionInfo Name="MinorVer">1</VersionInfo>
 						<VersionInfo Name="Release">5</VersionInfo>
-						<VersionInfo Name="Build">4</VersionInfo>
+						<VersionInfo Name="Build">5</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">False</VersionInfo>
@@ -139,13 +139,13 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName">www.cadetill.com</VersionInfoKeys>
 						<VersionInfoKeys Name="FileDescription"/>
-						<VersionInfoKeys Name="FileVersion">0.1.5.4</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">0.1.5.5</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName">GMLib</VersionInfoKeys>
 						<VersionInfoKeys Name="LegalCopyright">Copyright © Xavier Martínez - cadetill</VersionInfoKeys>
 						<VersionInfoKeys Name="LegalTrademarks"/>
 						<VersionInfoKeys Name="OriginalFilename"/>
 						<VersionInfoKeys Name="ProductName">GoogleMaps Library</VersionInfoKeys>
-						<VersionInfoKeys Name="ProductVersion">0.1.5.4</VersionInfoKeys>
+						<VersionInfoKeys Name="ProductVersion">0.1.5.5</VersionInfoKeys>
 						<VersionInfoKeys Name="Comments"/>
 					</VersionInfoKeys>
 				</Delphi.Personality>

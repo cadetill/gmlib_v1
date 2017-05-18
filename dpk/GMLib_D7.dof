@@ -111,7 +111,7 @@ AutoIncBuild=0
 MajorVer=0
 MinorVer=1
 Release=5
-Build=4
+Build=5
 Debug=0
 PreRelease=0
 Special=0
@@ -122,13 +122,13 @@ CodePage=1252
 [Version Info Keys]
 CompanyName=www.cadetill.com
 FileDescription=
-FileVersion=0.1.5.4
+FileVersion=0.1.5.5
 InternalName=GMLib
 LegalCopyright=Copyright © Xavier Martínez - cadetill
 LegalTrademarks=
 OriginalFilename=
 ProductName=GoogleMaps Library
-ProductVersion=0.1.5.4
+ProductVersion=0.1.5.5
 Comments=
 [HistoryLists\hlUnitAliases]
 Count=1
