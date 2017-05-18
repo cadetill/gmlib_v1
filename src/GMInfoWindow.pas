@@ -60,13 +60,13 @@ Copyright (©) 2012, by Xavier Martinez (cadetill)
   The GMInfoWindow unit includes the classes needed to show InfoWindows on Google Map map using the component TGMMap.
 
   @author Xavier Martinez (cadetill)
-  @version 1.5.4
+  @version 1.5.5
 -------------------------------------------------------------------------------}
 {=------------------------------------------------------------------------------
   La unit GMMarker contiene las clases necesarias para mostrar ventanas de información en un mapa de Google Maps mediante el componente TGMMap
 
   @author Xavier Martinez (cadetill)
-  @version 1.5.4
+  @version 1.5.5
 -------------------------------------------------------------------------------}
 unit GMInfoWindow;
 

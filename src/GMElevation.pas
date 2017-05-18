@@ -52,13 +52,13 @@ Copyright (©) 2012, by Xavier Martinez (cadetill)
   The GMElevation unit includes the base classes needed for calculate a terrain elevations of a set of LatLng.
 
   @author Xavier Martinez (cadetill)
-  @version 1.5.4
+  @version 1.5.5
 -------------------------------------------------------------------------------}
 {=------------------------------------------------------------------------------
   La unit GMElevation contiene las clases bases necesarias para calcular elevaciones de terreno de un conjunto de LatLng.
 
   @author Xavier Martinez (cadetill)
-  @version 1.5.4
+  @version 1.5.5
 -------------------------------------------------------------------------------}
 unit GMElevation;
 

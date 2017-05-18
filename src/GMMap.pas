@@ -187,13 +187,13 @@ web  http://www.cadetill.com
   The GMMap unit includes the base classes that manages the map and the objects in it are represented.
 
   @author Xavier Martinez (cadetill)
-  @version 1.5.4
+  @version 1.5.5
 -------------------------------------------------------------------------------}
 {=------------------------------------------------------------------------------
   La unit GMMap incluye las clases bases que gestionan el mapa y los objetos que en él se representan.
 
   @author Xavier Martinez (cadetill)
-  @version 1.5.4
+  @version 1.5.5
 -------------------------------------------------------------------------------}
 unit GMMap;
 
@@ -5215,13 +5215,13 @@ web  http://www.cadetill.com
   The GMMap unit includes the base classes that manages the map and the objects in it are represented.
 
   @author Xavier Martinez (cadetill)
-  @version 1.5.4
+  @version 1.5.5
 -------------------------------------------------------------------------------}
 {=------------------------------------------------------------------------------
   La unit GMMap incluye las clases bases que gestionan el mapa y los objetos que en él se representan.
 
   @author Xavier Martinez (cadetill)
-  @version 1.5.4
+  @version 1.5.5
 -------------------------------------------------------------------------------}
 unit GMMap;
 

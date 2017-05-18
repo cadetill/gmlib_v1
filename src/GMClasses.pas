@@ -100,13 +100,13 @@ Copyright (©) 2011, by Xavier Martinez (cadetill)
   The GMClasses unit includes basse classes or support classes.
 
   @author Xavier Martinez (cadetill)
-  @version 1.5.4
+  @version 1.5.5
 -------------------------------------------------------------------------------}
 {=------------------------------------------------------------------------------
   La unit GMClasses incluye clases bases o de apoyo.
 
   @author Xavier Martinez (cadetill)
-  @version 1.5.4
+  @version 1.5.5
 -------------------------------------------------------------------------------}
 unit GMClasses;
 
