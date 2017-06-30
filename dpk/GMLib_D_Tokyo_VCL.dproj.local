@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/03/27 23:32:00.000.797,=rtl.dcp</Transaction>
+    <Transaction>2017/03/27 23:32:51.000.240,=D:\Documents\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\VCL\GMFunctionsVCL.pas</Transaction>
+    <Transaction>2017/03/27 23:32:51.000.214,=D:\Documents\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\VCL\GMCircleVCL.pas</Transaction>
+    <Transaction>2017/03/27 23:32:51.000.233,=D:\Documents\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\VCL\GMElevationVCL.pas</Transaction>
+    <Transaction>2017/03/27 23:32:51.000.263,=D:\Documents\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\VCL\GMMarkerVCL.pas</Transaction>
+    <Transaction>2017/03/27 23:32:51.000.295,=D:\Documents\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\VCL\GMRectangleVCL.pas</Transaction>
+    <Transaction>2017/03/27 23:32:51.000.226,=D:\Documents\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\VCL\GMDirectionVCL.pas</Transaction>
+    <Transaction>2017/03/27 23:32:51.000.286,=D:\Documents\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\VCL\GMPolylineVCL.pas</Transaction>
+    <Transaction>2017/03/27 23:32:51.000.353,=D:\Documents\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\VCL\WebControlVCL.pas</Transaction>
+    <Transaction>2017/03/27 23:32:51.000.275,=D:\Documents\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\VCL\GMPolygonVCL.pas</Transaction>
+    <Transaction>2017/03/27 23:32:51.000.250,=D:\Documents\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\VCL\GMMapVCL.pas</Transaction>
+    <Transaction>2017/03/27 23:32:51.000.329,=D:\Documents\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\VCL\RegisterCompVCL.pas</Transaction>
+    <Transaction>2017/03/27 23:33:35.000.139,D:\Documents\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\dpk\GMLib_D_Tokyo_VCL.dproj=D:\Documents\Embarcadero\Studio\Projects\Package1.dproj</Transaction>
+    <Transaction>2017/03/27 23:36:00.000.539,=vclimg.dcp</Transaction>
+    <Transaction>2017/03/27 23:36:00.000.512,=xmlrtl.dcp</Transaction>
+    <Transaction>2017/03/27 23:36:00.000.528,=vcl.dcp</Transaction>
+    <Transaction>2017/03/27 23:36:00.000.571,=dclfmxstd.dcp</Transaction>
+    <Transaction>2017/03/27 23:36:00.000.558,=dbrtl.dcp</Transaction>
+    <Transaction>2017/03/27 23:36:00.000.549,=vclie.dcp</Transaction>
+    <Transaction>2017/03/27 23:38:02.000.103,=dclfmxstd.dcp</Transaction>
+    <Transaction>2017/03/27 23:40:04.000.019,=GMLib_D_Tokyo.dcp</Transaction>
+  </Transactions>
+</BorlandProject>

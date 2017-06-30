@@ -12,7 +12,13 @@
         <Projects Include="dpk\GMLib_D_Berlin_VCL.dproj">
             <Dependencies/>
         </Projects>
+        <Projects Include="dpk\GMLib_D_Berlin_FMX.dproj">
+            <Dependencies/>
+        </Projects>
         <Projects Include="dpk\GMLibEdit_D_Berlin.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Demos\MegaDemo\MegaDemo.dproj">
             <Dependencies/>
         </Projects>
     </ItemGroup>
@@ -50,6 +56,15 @@
     <Target Name="GMLib_D_Berlin_VCL:Make">
         <MSBuild Projects="dpk\GMLib_D_Berlin_VCL.dproj" Targets="Make"/>
     </Target>
+    <Target Name="GMLib_D_Berlin_FMX">
+        <MSBuild Projects="dpk\GMLib_D_Berlin_FMX.dproj"/>
+    </Target>
+    <Target Name="GMLib_D_Berlin_FMX:Clean">
+        <MSBuild Projects="dpk\GMLib_D_Berlin_FMX.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GMLib_D_Berlin_FMX:Make">
+        <MSBuild Projects="dpk\GMLib_D_Berlin_FMX.dproj" Targets="Make"/>
+    </Target>
     <Target Name="GMLibEdit_D_Berlin">
         <MSBuild Projects="dpk\GMLibEdit_D_Berlin.dproj"/>
     </Target>
@@ -59,7 +74,17 @@
     <Target Name="GMLibEdit_D_Berlin:Make">
         <MSBuild Projects="dpk\GMLibEdit_D_Berlin.dproj" Targets="Make"/>
     </Target>
+    <Target Name="MegaDemo">
+        <MSBuild Projects="Demos\MegaDemo\MegaDemo.dproj"/>
+    </Target>
+    <Target Name="MegaDemo:Clean">
+        <MSBuild Projects="Demos\MegaDemo\MegaDemo.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MegaDemo:Make">
+        <MSBuild Projects="Demos\MegaDemo\MegaDemo.dproj" Targets="Make"/>
+    </Target>
     <Target Name="Build">
+<<<<<<< HEAD
         <CallTarget Targets="GMLib_D_Berlin;GMLib_D_Berlin_FMX;GMLib_D_Berlin_VCL;GMLibEdit_D_Berlin"/>
     </Target>
     <Target Name="Clean">
@@ -67,6 +92,15 @@
     </Target>
     <Target Name="Make">
         <CallTarget Targets="GMLib_D_Berlin:Make;GMLib_D_Berlin_FMX:Make;GMLib_D_Berlin_VCL:Make;GMLibEdit_D_Berlin:Make"/>
+=======
+        <CallTarget Targets="GMLib_D_Berlin;GMLib_D_Berlin_VCL;GMLib_D_Berlin_FMX;GMLibEdit_D_Berlin;MegaDemo"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="GMLib_D_Berlin:Clean;GMLib_D_Berlin_VCL:Clean;GMLib_D_Berlin_FMX:Clean;GMLibEdit_D_Berlin:Clean;MegaDemo:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="GMLib_D_Berlin:Make;GMLib_D_Berlin_VCL:Make;GMLib_D_Berlin_FMX:Make;GMLibEdit_D_Berlin:Make;MegaDemo:Make"/>
+>>>>>>> upstream/master
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>

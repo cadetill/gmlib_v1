@@ -50,13 +50,13 @@ Copyright (©) 2012, by Xavier Martinez (cadetill)
   The GMGroundOverlay unit includes the classes needed to show images on Google Map map using the component TGMMap.
 
   @author Xavier Martinez (cadetill)
-  @version 1.5.3
+  @version 1.5.5
 -------------------------------------------------------------------------------}
 {=------------------------------------------------------------------------------
   La unit GMGroundOverlay contiene las clases necesarias para mostrar imágenes en un mapa de Google Maps mediante el componente TGMMap
 
   @author Xavier Martinez (cadetill)
-  @version 1.5.3
+  @version 1.5.5
 -------------------------------------------------------------------------------}
 unit GMGroundOverlay;
 

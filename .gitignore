@@ -1,0 +1,8 @@
+*.dcu
+*.hpp
+*.dcp
+*.lib
+*.bpi
+*.~*
+*test_RTTI*
+*.a

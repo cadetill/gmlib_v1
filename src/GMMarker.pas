@@ -178,13 +178,13 @@ Copyright (©) 2012, by Xavier Martinez (cadetill)
   The GMMarker unit includes the base classes needed to show markers on Google Map map using the component TGMMap.
 
   @author Xavier Martinez (cadetill)
-  @version 1.5.3
+  @version 1.5.5
 -------------------------------------------------------------------------------}
 {=------------------------------------------------------------------------------
   La unit GMMarker contiene las clases bases necesarias para mostrar marcadores en un mapa de Google Maps mediante el componente TGMMap
 
   @author Xavier Martinez (cadetill)
-  @version 1.5.3
+  @version 1.5.5
 -------------------------------------------------------------------------------}
 unit GMMarker;
 

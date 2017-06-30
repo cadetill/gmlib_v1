@@ -40,7 +40,7 @@ IMPORTANT DEVELOPERS: please, if you have comments, improvements, enlargements,
   By default, only the TWebBrowser is active.
 
   @author Xavier Martinez (cadetill)
-  @version 1.5.3
+  @version 1.5.5
 -------------------------------------------------------------------------------}
 {=------------------------------------------------------------------------------
   La unit WebChronium incluye las clases necesarias para encapsular el acceso a un navegador.
@@ -49,7 +49,7 @@ IMPORTANT DEVELOPERS: please, if you have comments, improvements, enlargements,
   Por defecto, sólo está activo el TWebBrowser.
 
   @author Xavier Martinez (cadetill)
-  @version 1.5.3
+  @version 1.5.5
 -------------------------------------------------------------------------------}
 unit WebControl;
 
@@ -657,3 +657,4 @@ end;
 {$ENDIF}
 
 end.
+

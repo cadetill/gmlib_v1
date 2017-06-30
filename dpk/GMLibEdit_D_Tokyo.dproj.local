@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/03/27 23:41:25.000.699,=rtl.dcp</Transaction>
+    <Transaction>2017/03/27 23:42:21.000.563,D:\Documents\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\dpk\GMLibEdit_D_Tokyo.dproj=D:\Documents\Embarcadero\Studio\Projects\Package1.dproj</Transaction>
+    <Transaction>2017/03/27 23:42:38.000.727,=D:\Documents\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\GMEditors.pas</Transaction>
+    <Transaction>2017/03/27 23:43:12.000.227,=D:\Documents\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\RegisterEditors.pas</Transaction>
+    <Transaction>2017/03/27 23:43:16.000.442,=D:\Documents\DropBox\Programacio\GoogleMaps\Components\gmlib_v1\src\UAboutFrm.pas</Transaction>
+    <Transaction>2017/03/28 00:29:31.000.361,=designide.dcp</Transaction>
+    <Transaction>2017/03/28 00:29:39.000.411,=dclfmxstd.dcp</Transaction>
+    <Transaction>2017/03/28 00:29:39.000.402,=dbrtl.dcp</Transaction>
+    <Transaction>2017/03/28 00:30:58.000.394,=GMLib_D_Tokyo.dcp</Transaction>
+  </Transactions>
+</BorlandProject>

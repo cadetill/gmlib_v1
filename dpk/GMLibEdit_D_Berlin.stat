@@ -1,0 +1,23 @@
+<<<<<<< HEAD
+[Stats]
+EditorSecs=37 
+DesignerSecs=1
+InspectorSecs=215
+CompileSecs=64224
+OtherSecs=454
+StartTime=11/08/2016 15:47:01
+RealKeys=0
+EffectiveKeys=0
+DebugSecs=1
+=======
+[Stats]
+EditorSecs=37
+DesignerSecs=1
+InspectorSecs=141
+CompileSecs=54179
+OtherSecs=301
+StartTime=11/08/2016 15:47:01
+RealKeys=0
+EffectiveKeys=0
+DebugSecs=1
+>>>>>>> 24c88e09763adfa66f47901207ad45afca285772

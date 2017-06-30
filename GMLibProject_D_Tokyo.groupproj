@@ -1,0 +1,72 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{9D6325AB-1D9B-4B60-88D7-FE65282CE7A1}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="dpk\GMLib_D_Tokyo.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="dpk\GMLib_D_Tokyo_VCL.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="dpk\GMLibEdit_D_Tokyo.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Demos\MegaDemo\MegaDemo.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="GMLib_D_Tokyo">
+        <MSBuild Projects="dpk\GMLib_D_Tokyo.dproj"/>
+    </Target>
+    <Target Name="GMLib_D_Tokyo:Clean">
+        <MSBuild Projects="dpk\GMLib_D_Tokyo.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GMLib_D_Tokyo:Make">
+        <MSBuild Projects="dpk\GMLib_D_Tokyo.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="GMLib_D_Tokyo_VCL">
+        <MSBuild Projects="dpk\GMLib_D_Tokyo_VCL.dproj"/>
+    </Target>
+    <Target Name="GMLib_D_Tokyo_VCL:Clean">
+        <MSBuild Projects="dpk\GMLib_D_Tokyo_VCL.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GMLib_D_Tokyo_VCL:Make">
+        <MSBuild Projects="dpk\GMLib_D_Tokyo_VCL.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="GMLibEdit_D_Tokyo">
+        <MSBuild Projects="dpk\GMLibEdit_D_Tokyo.dproj"/>
+    </Target>
+    <Target Name="GMLibEdit_D_Tokyo:Clean">
+        <MSBuild Projects="dpk\GMLibEdit_D_Tokyo.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GMLibEdit_D_Tokyo:Make">
+        <MSBuild Projects="dpk\GMLibEdit_D_Tokyo.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MegaDemo">
+        <MSBuild Projects="Demos\MegaDemo\MegaDemo.dproj"/>
+    </Target>
+    <Target Name="MegaDemo:Clean">
+        <MSBuild Projects="Demos\MegaDemo\MegaDemo.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MegaDemo:Make">
+        <MSBuild Projects="Demos\MegaDemo\MegaDemo.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="GMLib_D_Tokyo;GMLib_D_Tokyo_VCL;GMLibEdit_D_Tokyo;MegaDemo"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="GMLib_D_Tokyo:Clean;GMLib_D_Tokyo_VCL:Clean;GMLibEdit_D_Tokyo:Clean;MegaDemo:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="GMLib_D_Tokyo:Make;GMLib_D_Tokyo_VCL:Make;GMLibEdit_D_Tokyo:Make;MegaDemo:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

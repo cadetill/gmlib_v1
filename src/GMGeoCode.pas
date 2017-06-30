@@ -130,13 +130,13 @@ Copyright (©) 2012, by Xavier Martinez (cadetill)
   Includes the necessary classes to geocoding.
 
   @author Xavier Martinez (cadetill)
-  @version 1.5.3
+  @version 1.5.5
 -------------------------------------------------------------------------------}
 {=------------------------------------------------------------------------------
   Contiene las classes necesarias para la geocodificación.
 
   @author Xavier Martinez (cadetill)
-  @version 1.5.3
+  @version 1.5.5
 -------------------------------------------------------------------------------}
 unit GMGeoCode;
 

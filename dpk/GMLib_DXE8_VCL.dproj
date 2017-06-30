@@ -104,15 +104,15 @@
         <DCC_BpiOutput>..\lib\CXE8\VCL</DCC_BpiOutput>
         <VerInfo_MajorVer>0</VerInfo_MajorVer>
         <VerInfo_MinorVer>1</VerInfo_MinorVer>
-        <DCC_Description>GoogleMaps Library v1.5.3 VCL (Copyright © Xavier Martínez - cadetill)</DCC_Description>
-        <VerInfo_Build>3</VerInfo_Build>
+        <DCC_Description>GoogleMaps Library v1.5.5 VCL (Copyright © Xavier Martínez - cadetill)</DCC_Description>
+        <VerInfo_Build>5</VerInfo_Build>
         <DCC_UsePackage>xmlrtl;rtl;vcl;vclimg;vclie;dbrtl;GMLib_DXE8;$(DCC_UsePackage)</DCC_UsePackage>
         <VerInfo_Release>5</VerInfo_Release>
         <DCC_Namespace>Winapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;$(DCC_Namespace)</DCC_Namespace>
         <DCC_DcuOutput>..\lib\dxe8\VCL</DCC_DcuOutput>
         <DCC_DcpOutput>..\lib\dxe8\VCL</DCC_DcpOutput>
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
-        <VerInfo_Keys>CompanyName=www.cadetill.com;FileDescription=;FileVersion=0.1.5.3;InternalName=GMLib;LegalCopyright=Copyright © Xavier Martínez - cadetill;LegalTrademarks=;OriginalFilename=;ProductName=GoogleMaps Library;ProductVersion=0.1.5.3;Comments=</VerInfo_Keys>
+        <VerInfo_Keys>CompanyName=www.cadetill.com;FileDescription=;FileVersion=0.1.5.5;InternalName=GMLib;LegalCopyright=Copyright © Xavier Martínez - cadetill;LegalTrademarks=;OriginalFilename=;ProductName=GoogleMaps Library;ProductVersion=0.1.5.5;Comments=</VerInfo_Keys>
         <DCC_UnitSearchPath>..\lib\dxe8\VCL;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
         <VerInfo_Locale>1033</VerInfo_Locale>
     </PropertyGroup>
@@ -125,13 +125,13 @@
         <VerInfo_MinorVer>1</VerInfo_MinorVer>
         <DCC_UnitSearchPath>..\lib\DXE8_64\VCL;..\lib\DXE8_64;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
         <DCC_UsePackage>xmlrtl;rtl;vcl;vclimg;vclie;dbrtl;GMLib_DXE8;$(DCC_UsePackage)</DCC_UsePackage>
-        <VerInfo_Build>3</VerInfo_Build>
+        <VerInfo_Build>5</VerInfo_Build>
         <VerInfo_Release>5</VerInfo_Release>
         <DCC_ObjOutput>..\lib\CXE8_64\VCL</DCC_ObjOutput>
-        <DCC_Description>GoogleMaps Library v1.5.3 VCL (Copyright © Xavier Martínez - cadetill)</DCC_Description>
+        <DCC_Description>GoogleMaps Library v1.5.5 VCL (Copyright © Xavier Martínez - cadetill)</DCC_Description>
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <DCC_Namespace>Winapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;$(DCC_Namespace)</DCC_Namespace>
-        <VerInfo_Keys>CompanyName=www.cadetill.com;FileDescription=;FileVersion=0.1.5.3;InternalName=GMLib;LegalCopyright=Copyright © Xavier Martínez - cadetill;LegalTrademarks=;OriginalFilename=;ProductName=GoogleMaps Library;ProductVersion=0.1.5.3;Comments=</VerInfo_Keys>
+        <VerInfo_Keys>CompanyName=www.cadetill.com;FileDescription=;FileVersion=0.1.5.5;InternalName=GMLib;LegalCopyright=Copyright © Xavier Martínez - cadetill;LegalTrademarks=;OriginalFilename=;ProductName=GoogleMaps Library;ProductVersion=0.1.5.5;Comments=</VerInfo_Keys>
         <VerInfo_Locale>1033</VerInfo_Locale>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_1)'!=''">

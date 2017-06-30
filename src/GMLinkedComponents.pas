@@ -96,13 +96,13 @@ web  http://www.cadetill.com
   The GMLinkedComponent unit includes the base classes that represent an object into the Google Maps map.
 
   @author Xavier Martinez (cadetill)
-  @version 1.5.3
+  @version 1.5.5
 -------------------------------------------------------------------------------}
 {=------------------------------------------------------------------------------
   La unidad GMLinkedComponent incluye las clases bases que representan un objete en un mapa de Google Maps.
 
   @author Xavier Martinez (cadetill)
-  @version 1.5.3
+  @version 1.5.5
 -------------------------------------------------------------------------------}
 unit GMLinkedComponents;
 
