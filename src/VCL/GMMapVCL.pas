@@ -75,9 +75,9 @@ uses
   {$ENDIF}
 
   {$IFDEF DELPHIXE2}
-  System.SysUtils, System.Classes, Vcl.Dialogs, Vcl.Graphics,
+  System.SysUtils, System.Classes, Vcl.Dialogs, Vcl.Graphics, Vcl.Imaging.jpeg,
   {$ELSE}
-  SysUtils, Classes, Dialogs, Graphics,
+  SysUtils, Classes, Dialogs, Graphics, jpeg,
   {$ENDIF}
 
   GMMap, GMFunctionsVCL;
@@ -140,6 +140,9 @@ type
     procedure Assign(Source: TPersistent); override;
 
     procedure SaveToJPGFile(FileName: TFileName = ''); override;
+    procedure SaveToStream(ST: TMemoryStream);
+    procedure CopyToClipBoard;
+    procedure SaveToJPG(JPG: TJPEGImage);
   published
     property VisualProp: TVisualProp read FVisualProp write FVisualProp;
   end;
@@ -656,7 +659,40 @@ begin
     end;
   end;
 
-  FWC.SaveToJPGFile(FileName);
+  If Filename<>'' then FWC.SaveToJPGFile(FileName);
+end;
+
+procedure TCustomGMMapVCL.SaveToStream(ST: TMemoryStream);
+begin
+  inherited;
+
+  if not Assigned(FWebBrowser) or not Assigned(FWC) then Exit;
+
+  FWC.SaveToStream(ST);
+end;
+
+
+procedure TCustomGMMapVCL.CopyToClipBoard;
+var
+  SD: TSaveDialog;
+begin
+  inherited;
+
+  if not Assigned(FWebBrowser) or not Assigned(FWC) then Exit;
+
+  FWC.CopyToClipboard;
+end;
+
+
+procedure TCustomGMMapVCL.SaveToJPG(JPG: TJPEGImage);
+var
+  SD: TSaveDialog;
+begin
+  inherited;
+
+  if not Assigned(FWebBrowser) or not Assigned(FWC) then Exit;
+
+  FWC.SaveToJPG(JPG);
 end;
 
 procedure TCustomGMMapVCL.SetEnableTimer(State: Boolean);

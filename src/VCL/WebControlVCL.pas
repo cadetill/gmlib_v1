@@ -73,9 +73,9 @@ uses
   {$ENDIF}
 
   {$IFDEF DELPHIXE2}
-  System.SysUtils,
+  System.SysUtils,  WinApi.windows, Vcl.Clipbrd, System.Classes, Vcl.Imaging.jpeg, System.DateUtils,
   {$ELSE}
-  SysUtils,
+  SysUtils, windows, Clipbrd, classes, jpeg, DateUtils;
   {$ENDIF}
 
   WebControl;
@@ -125,6 +125,9 @@ type
     procedure WebPrintPageSetup; override;
     procedure WebPreview; override;
     procedure SaveToJPGFile(FileName: TFileName = ''); override;
+    procedure CopyToClipBoard; override;
+    procedure SaveToStream(MS:TMemoryStream); override;
+    procedure SaveToJPG(JPG: TJPEGImage); override;
     {*------------------------------------------------------------------------------
       Set a browser
       @param Browser browser to set
@@ -171,6 +174,9 @@ type
     procedure WebPrintPageSetup; override;
     procedure WebPreview; override;
     procedure SaveToJPGFile(FileName: TFileName = ''); override;
+    procedure CopyToClipBoard; override;
+    procedure SaveToStream(MS:TMemoryStream); override;
+    procedure SaveToJPG(JPG: TJPEGImage); override;
     {*------------------------------------------------------------------------------
       Set a browser
       @param Browser browser to set
@@ -188,9 +194,9 @@ implementation
 uses
   {$IFDEF WEBBROWSER}
     {$IFDEF DELPHIXE2}
-    Winapi.ActiveX, System.Types, Vcl.Graphics, Vcl.Forms, System.StrUtils,
+    Winapi.ActiveX, System.Types, Vcl.Graphics, Vcl.Forms, System.StrUtils;
     {$ELSE}
-    ActiveX, Types, Graphics, Forms, StrUtils,
+    ActiveX, Types, Graphics, Forms, StrUtils;
     {$ENDIF}
   {$ENDIF}
 
@@ -249,6 +255,155 @@ begin
         SaveToFile(FileName);
       finally
         Free;
+      end;
+    finally
+      bitmap.Free;
+    end;
+  finally
+    viewObject._Release;
+  end;
+end;
+
+
+procedure TWebControl.CopyToClipBoard;
+var
+  viewObject: IViewObject;
+  r: TRect;
+  {$IFDEF DELPHIXE2}
+  bitmap: Vcl.Graphics.TBitmap;
+  {$ELSE}
+  bitmap: Graphics.TBitmap;
+  {$ENDIF}
+
+  MyFormat : Word;
+  AData : THandle;
+  APalette : HPALETTE;
+begin
+  if not Assigned(FWebBrowser) then
+    raise Exception.Create('WebBrowser not assigned');
+  if not (FWebBrowser is TWebBrowser) then
+    raise Exception.Create('The WebBrowser property is not a TWebBrowser.');
+
+  TWebBrowser(FWebBrowser).Document.QueryInterface(IViewObject, viewObject);
+  if Assigned(viewObject) then
+  try
+    {$IFDEF DELPHIXE2}
+    bitmap := Vcl.Graphics.TBitmap.Create;
+    {$ELSE}
+    bitmap := Graphics.TBitmap.Create;
+    {$ENDIF}
+    try
+      r := Rect(-2, -2, TWebBrowser(FWebBrowser).Width, TWebBrowser(FWebBrowser).Height);
+
+      bitmap.Height := TWebBrowser(FWebBrowser).Height-4;
+      bitmap.Width := TWebBrowser(FWebBrowser).Width-4;
+
+      {$IFDEF DELPHIXE2}
+      viewObject.Draw(DVASPECT_CONTENT, 1, nil, nil, Vcl.Forms.Application.Handle, bitmap.Canvas.Handle, @r, nil, nil, 0);
+      {$ELSE}
+      viewObject.Draw(DVASPECT_CONTENT, 1, nil, nil, Application.Handle, bitmap.Canvas.Handle, @r, nil, nil, 0);
+      {$ENDIF}
+
+      Bitmap.SaveToClipBoardFormat(
+        MyFormat,
+        AData,
+        APalette);
+      ClipBoard.SetAsHandle(MyFormat,AData);
+    finally
+      bitmap.Free;
+    end;
+  finally
+    viewObject._Release;
+  end;
+end;
+
+procedure TWebControl.SaveToStream(MS:TMemoryStream);
+var
+  viewObject: IViewObject;
+  r: TRect;
+  {$IFDEF DELPHIXE2}
+  bitmap: Vcl.Graphics.TBitmap;
+  {$ELSE}
+  bitmap: Graphics.TBitmap;
+  {$ENDIF}
+
+begin
+  if not Assigned(FWebBrowser) then
+    raise Exception.Create('WebBrowser not assigned');
+  if not (FWebBrowser is TWebBrowser) then
+    raise Exception.Create('The WebBrowser property is not a TWebBrowser.');
+
+  TWebBrowser(FWebBrowser).Document.QueryInterface(IViewObject, viewObject);
+  if Assigned(viewObject) then
+  try
+    {$IFDEF DELPHIXE2}
+    bitmap := Vcl.Graphics.TBitmap.Create;
+    {$ELSE}
+    bitmap := Graphics.TBitmap.Create;
+    {$ENDIF}
+    try
+      r := Rect(-2, -2, TWebBrowser(FWebBrowser).Width, TWebBrowser(FWebBrowser).Height);
+
+      bitmap.Height := TWebBrowser(FWebBrowser).Height-4;
+      bitmap.Width := TWebBrowser(FWebBrowser).Width-4;
+
+      {$IFDEF DELPHIXE2}
+      viewObject.Draw(DVASPECT_CONTENT, 1, nil, nil, Vcl.Forms.Application.Handle, bitmap.Canvas.Handle, @r, nil, nil, 0);
+      {$ELSE}
+      viewObject.Draw(DVASPECT_CONTENT, 1, nil, nil, Application.Handle, bitmap.Canvas.Handle, @r, nil, nil, 0);
+      {$ENDIF}
+
+      Bitmap.SaveToStream(MS);
+      if MS.Size>0 then
+        MS.Seek(0, soBeginning);
+    finally
+      bitmap.Free;
+    end;
+  finally
+    viewObject._Release;
+  end;
+end;
+
+
+procedure TWebControl.SaveToJPG(JPG: TJPEGImage);
+var
+  viewObject: IViewObject;
+  r: TRect;
+  {$IFDEF DELPHIXE2}
+  bitmap: Vcl.Graphics.TBitmap;
+  {$ELSE}
+  bitmap: Graphics.TBitmap;
+  {$ENDIF}
+begin
+  if not Assigned(FWebBrowser) then
+    raise Exception.Create('WebBrowser not assigned');
+  if not (FWebBrowser is TWebBrowser) then
+    raise Exception.Create('The WebBrowser property is not a TWebBrowser.');
+
+  TWebBrowser(FWebBrowser).Document.QueryInterface(IViewObject, viewObject);
+  if Assigned(viewObject) then
+  try
+    {$IFDEF DELPHIXE2}
+    bitmap := Vcl.Graphics.TBitmap.Create;
+    {$ELSE}
+    bitmap := Graphics.TBitmap.Create;
+    {$ENDIF}
+    try
+      r := Rect(-2, -2, TWebBrowser(FWebBrowser).Width, TWebBrowser(FWebBrowser).Height);
+
+      bitmap.Height := TWebBrowser(FWebBrowser).Height-4;
+      bitmap.Width := TWebBrowser(FWebBrowser).Width-4;
+
+      {$IFDEF DELPHIXE2}
+      viewObject.Draw(DVASPECT_CONTENT, 1, nil, nil, Vcl.Forms.Application.Handle, bitmap.Canvas.Handle, @r, nil, nil, 0);
+      {$ELSE}
+      viewObject.Draw(DVASPECT_CONTENT, 1, nil, nil, Application.Handle, bitmap.Canvas.Handle, @r, nil, nil, 0);
+      {$ENDIF}
+
+      with JPG do
+      try
+        Assign(bitmap);
+      finally
       end;
     finally
       bitmap.Free;
@@ -486,6 +641,76 @@ begin
       SaveToFile(FileName);
     finally
       Free;
+    end;
+  finally
+    FreeAndNil(bmp);
+  end;
+end;
+
+procedure TWebChromium.CopyToClipboard;
+var
+   bmp: Vcl.Graphics.TBitmap;
+   MyFormat : Word;
+   AData : THandle;
+   APalette : HPALETTE;
+begin
+  if not Assigned(FWebBrowser) then
+    raise Exception.Create('WebBrowser not assigned');
+  if not (FWebBrowser is TChromium) then
+    raise Exception.Create('The WebBrowser property is not a TChromium.');
+
+  bmp := Vcl.Graphics.TBitMap.Create;
+  try
+    cefvcl.CefGetBitmap(TChromium(FWebBrowser).Browser, PET_VIEW, bmp);
+    bmp.SaveToStream(MS);
+    if MS.Size>0 then
+       MS.Seek(0, soBeginning);
+  finally
+    FreeAndNil(bmp);
+  end;
+end;
+
+
+procedure TWebChromium.SaveToStream(MS:TMemoryStream);
+var
+   bmp: Vcl.Graphics.TBitmap;
+begin
+  if not Assigned(FWebBrowser) then
+    raise Exception.Create('WebBrowser not assigned');
+  if not (FWebBrowser is TChromium) then
+    raise Exception.Create('The WebBrowser property is not a TChromium.');
+
+  bmp := Vcl.Graphics.TBitMap.Create;
+  try
+    cefvcl.CefGetBitmap(TChromium(FWebBrowser).Browser, PET_VIEW, bmp);
+    with TJPEGImage.Create do
+    try
+      Assign(bmp);
+      SaveToFile(FileName);
+    finally
+      Free;
+    end;
+  finally
+    FreeAndNil(bmp);
+  end;
+end;
+
+procedure TWebChromium.SaveToJPG(JPG:TJPEGImage);
+var
+   bmp: Vcl.Graphics.TBitmap;
+begin
+  if not Assigned(FWebBrowser) then
+    raise Exception.Create('WebBrowser not assigned');
+  if not (FWebBrowser is TChromium) then
+    raise Exception.Create('The WebBrowser property is not a TChromium.');
+
+  bmp := Vcl.Graphics.TBitMap.Create;
+  try
+    cefvcl.CefGetBitmap(TChromium(FWebBrowser).Browser, PET_VIEW, bmp);
+    with JPG do
+    try
+      Assign(bmp);
+    finally
     end;
   finally
     FreeAndNil(bmp);
