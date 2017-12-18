@@ -200,11 +200,6 @@ uses
     {$ENDIF}
   {$ENDIF}
 
-  {$IFDEF DELPHIXE2}
-  Vcl.Imaging.jpeg, System.DateUtils;
-  {$ELSE}
-  jpeg, DateUtils;
-  {$ENDIF}
 
 { TWebControl }
 
