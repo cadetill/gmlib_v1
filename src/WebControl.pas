@@ -65,9 +65,9 @@ uses
   {$ENDIF}
 
   {$IFDEF DELPHIXE2}
-  System.Classes, System.SysUtils;
+  System.Classes, System.SysUtils, Vcl.Imaging.jpeg;
   {$ELSE}
-  Classes, SysUtils;
+  Classes, SysUtils, TJpeg;
   {$ENDIF}
 
 type
@@ -357,7 +357,31 @@ type
       @param FileName es el nombre del archivo JPG
     -------------------------------------------------------------------------------}
     procedure SaveToJPGFile(FileName: TFileName = ''); virtual; abstract;
-
+    {*------------------------------------------------------------------------------
+      CopyToClipboard method copies the GMmap image to the clipboard in Bitmap format
+    -------------------------------------------------------------------------------}
+    {=------------------------------------------------------------------------------
+      El método CopyToClipboard Copia en formato Bitmap la imagen de GMmap al portapapeles
+    -------------------------------------------------------------------------------}
+    procedure CopyToClipboard; virtual; abstract;
+    {*------------------------------------------------------------------------------
+      SaveToStream method save the GMMap image to a MemoryStream
+      @param MS is the TMemoryStream
+    -------------------------------------------------------------------------------}
+    {=------------------------------------------------------------------------------
+      El método SaveToStream guarda la imagen del GMMap en un MemoryStream
+      @param MS es el TMemoryStream
+    -------------------------------------------------------------------------------}
+    procedure SaveToStream(MS:TMemoryStream); virtual; abstract;
+    {*------------------------------------------------------------------------------
+      SaveToJPG method save the GMMap image to a JPG
+      @param JPG is the SaveToJPG
+    -------------------------------------------------------------------------------}
+    {=------------------------------------------------------------------------------
+      El método SaveToJPG guarda la imagen del GMMap en un JPG
+      @param JPG es el SaveToJPG
+    -------------------------------------------------------------------------------}
+    procedure SaveToJPG(JPG: TJPEGImage); virtual; abstract;
     {*------------------------------------------------------------------------------
       Forms property have all forms of a loaded page into the browser.
       Call WebFormNames method to initialize it.
