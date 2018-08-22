@@ -140,6 +140,7 @@ type
     procedure Assign(Source: TPersistent); override;
 
     procedure SaveToJPGFile(FileName: TFileName = ''); override;
+    procedure SaveHTML(FileName: TFileName = ''); override;
   published
     property VisualProp: TVisualProp read FVisualProp write FVisualProp;
   end;
@@ -335,7 +336,7 @@ procedure TGMMap.DocumentComplete(ASender: TObject; const pDisp: IDispatch;
 begin
   if Assigned(OldDocumentComplete) then OldDocumentComplete(ASender, pDisp, URL);
 
-  if (pDisp = CurDispatch) then  // si son iguales, la página se ha cargado
+  if not FDocLoaded and (pDisp = CurDispatch) then  // si son iguales, la página se ha cargado
   begin
     FDocLoaded := True;
     CurDispatch := nil;
@@ -634,6 +635,36 @@ begin
   if Assigned(FTimer) then FreeAndNil(FTimer);
 
   inherited;
+end;
+
+procedure TCustomGMMapVCL.SaveHTML(FileName: TFileName);
+var
+  SD: TSaveDialog;
+  L: TStringList;
+begin
+  inherited;
+
+  if not Assigned(FWebBrowser) or not Assigned(FWC) then Exit;
+
+  if FileName = '' then
+  begin
+    SD := TSaveDialog.Create(nil);
+    try
+      SD.Filter := '*.html|*.html';
+      SD.DefaultExt := '*.html';
+      if SD.Execute then FileName := SD.FileName;
+    finally
+      FreeAndNil(SD);
+    end;
+  end;
+
+  L := TStringList.Create;
+  try
+    L.Text := FWC.WebHTMLCode;
+    L.SaveToFile(FileName);
+  finally
+    FreeAndNil(L);
+  end;
 end;
 
 procedure TCustomGMMapVCL.SaveToJPGFile(FileName: TFileName);
