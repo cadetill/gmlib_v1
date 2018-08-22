@@ -620,6 +620,7 @@ type
     -------------------------------------------------------------------------------}
     procedure DoMarkers;
 
+    procedure Clear;
     {*------------------------------------------------------------------------------
       Number of results.
     -------------------------------------------------------------------------------}
@@ -690,6 +691,11 @@ begin
   end
   else
     inherited Assign(Source);
+end;
+
+procedure TGMGeoCode.Clear;
+begin
+  FGeoResults.Clear;
 end;
 
 constructor TGMGeoCode.Create(aOwner: TComponent);
