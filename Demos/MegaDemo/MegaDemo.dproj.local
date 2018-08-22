@@ -1,2 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<BorlandProject/>
+<BorlandProject>
+  <ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="UCirclesFrm.pas"/>
+    <File Path="UCirclesFrm.dfm"/>
+    <File Path="UDirectionsFrm.pas"/>
+    <File Path="UDirectionsFrm.dfm"/>
+    <File Path="UGeoCodeFrm.pas"/>
+    <File Path="UGeoCodeFrm.dfm"/>
+    <File Path="UGroundOverlayFrm.pas"/>
+    <File Path="UGroundOverlayFrm.dfm"/>
+    <File Path="UMainFrm.pas"/>
+    <File Path="UMainFrm.dfm"/>
+    <File Path="UMapFrm.pas"/>
+    <File Path="UMapFrm.dfm"/>
+    <File Path="UMarkersFrm.pas"/>
+    <File Path="UMarkersFrm.dfm"/>
+    <File Path="UPolygonFrm.pas"/>
+    <File Path="UPolygonFrm.dfm"/>
+    <File Path="UPolylinesFrm.pas"/>
+    <File Path="UPolylinesFrm.dfm"/>
+    <File Path="URectanglesFrm.pas"/>
+    <File Path="URectanglesFrm.dfm"/>
+    <File Path="UWaypointFrm.pas"/>
+    <File Path="UWaypointFrm.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

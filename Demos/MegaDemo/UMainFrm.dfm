@@ -203,6 +203,10 @@ object MainFrm: TMainFrm
         Caption = '&3. Save Map'
         OnClick = N3SaveMap1Click
       end
+      object N4SaveHTMLCode1: TMenuItem
+        Caption = '&4. Save HTML Code'
+        OnClick = N4SaveHTMLCode1Click
+      end
     end
     object InfoWindows1: TMenuItem
       Caption = 'InfoWindows'
@@ -256,6 +260,7 @@ object MainFrm: TMainFrm
     end
   end
   object GMMap1: TGMMap
+    APIKey = 'AIzaSyAh646wcvHAuOfk7KA3JRgwh4l46-RtEZw'
     IntervalEvents = 100
     Precision = 8
     RequiredProp.Center.Lat = 41.403185000000000000

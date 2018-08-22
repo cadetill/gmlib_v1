@@ -59,6 +59,7 @@ type
     SaveDialog1: TSaveDialog;
     GMHeatmap1: TGMHeatmap;
     ShowHideheapmap1: TMenuItem;
+    N4SaveHTMLCode1: TMenuItem;
     procedure FormResize(Sender: TObject);
     procedure sbStatusDrawPanel(StatusBar: TStatusBar; Panel: TStatusPanel;
       const Rect: TRect);
@@ -178,6 +179,7 @@ type
     procedure N2PrintMap1Click(Sender: TObject);
     procedure N3SaveMap1Click(Sender: TObject);
     procedure ShowHideheapmap1Click(Sender: TObject);
+    procedure N4SaveHTMLCode1Click(Sender: TObject);
   private
     procedure ControlIEVersion;
   public
@@ -286,7 +288,7 @@ begin
   end;
 
   if Ver < 7 then Ver := 7;
-  if Ver > 10 then Ver := 10;
+  //if Ver > 10 then Ver := 10;
 
   Ver := Ver * 1000;
 
@@ -938,6 +940,12 @@ procedure TMainFrm.N3SaveMap1Click(Sender: TObject);
 begin
   if SaveDialog1.Execute then
     GMMap1.SaveToJPGFile(SaveDialog1.FileName);
+end;
+
+procedure TMainFrm.N4SaveHTMLCode1Click(Sender: TObject);
+begin
+  if SaveDialog1.Execute then
+    GMMap1.SaveHTML(SaveDialog1.FileName);
 end;
 
 procedure TMainFrm.N6GroundOverlay1Click(Sender: TObject);
