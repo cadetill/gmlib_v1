@@ -1,0 +1,53 @@
+package GMLib_D_Rio_VCL;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$DESCRIPTION 'GoogleMaps Library v1.5.5 VCL (Copyright © Xavier Martínez - cadetill)'}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  xmlrtl,
+  vcl,
+  vclimg,
+  vclie,
+  dbrtl,
+  GMLib_D_Rio;
+
+contains
+  GMCircleVCL in '..\src\VCL\GMCircleVCL.pas',
+  GMDirectionVCL in '..\src\VCL\GMDirectionVCL.pas',
+  GMElevationVCL in '..\src\VCL\GMElevationVCL.pas',
+  GMFunctionsVCL in '..\src\VCL\GMFunctionsVCL.pas',
+  GMMapVCL in '..\src\VCL\GMMapVCL.pas',
+  GMMarkerVCL in '..\src\VCL\GMMarkerVCL.pas',
+  GMPolygonVCL in '..\src\VCL\GMPolygonVCL.pas',
+  GMPolylineVCL in '..\src\VCL\GMPolylineVCL.pas',
+  GMRectangleVCL in '..\src\VCL\GMRectangleVCL.pas',
+  RegisterCompVCL in '..\src\VCL\RegisterCompVCL.pas',
+  WebControlVCL in '..\src\VCL\WebControlVCL.pas';
+
+end.
