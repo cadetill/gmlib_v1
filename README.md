@@ -1,4 +1,7 @@
 # gmlib_v1
+
+This project is closed due to the new Google Maps license
+
 Google Maps Library v1 (closed)
 
 GMLib (Google Maps Library) are components for Delphi/C++ Builder that encapsulate the GoogleMaps API to administrate a map, markers, polygons, rectangles, polylines,.... All objects that you can put into a map.
